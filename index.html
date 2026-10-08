@@ -178,8 +178,12 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
 .kv b.mono{font-size:13px}
 .kv.water b{color:var(--water)}
 .kv .sm{font-size:12px;color:var(--ink-3);margin-top:2px}
-.cols{display:grid;grid-template-columns:minmax(300px,auto) 1fr;gap:22px;align-items:start}
+.cols{display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px;align-items:start}
+.cols.wide{grid-template-columns:480px minmax(0,1fr)}
+@media(max-width:1000px){.cols.wide{grid-template-columns:1fr}}
 #litho-cpt .ch svg.log{height:720px;width:auto}
+#litho-cpt .ch{padding:0}
+#litho-cpt .ch h4{padding:8px 4px 2px}
 @media(max-width:800px){.cols{grid-template-columns:1fr}}
 .panel{border:1px solid var(--line);border-radius:var(--r);background:#fff}
 .panel h3{font-size:17px;color:var(--navy);padding:10px 14px;border-bottom:1px solid var(--line-2);background:var(--bg-2);display:flex;align-items:center;gap:8px}
@@ -659,7 +663,7 @@ function miniMap(el, lat, lon, color, proiectat){
 /* ============================ DETAIL FORAJ ============================ */
 function logSVG(i, depOverride){
   const dep = depOverride || Math.max(+i.adancime||12, ...i.straturi.map(s=>s.la||0));
-  const W=300, top=14, H=640, sc=H/dep, x0=70, cw=70;
+  const W=232, top=14, H=640, sc=H/dep, x0=44, cw=56;
   const defs = `<defs>
     <pattern id="p-sand" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="#7a6a3a"/><circle cx="6" cy="6" r=".9" fill="#7a6a3a"/></pattern>
     <pattern id="p-gravel" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.8" fill="none" stroke="#7a6a3a" stroke-width=".8"/><circle cx="8" cy="7" r="1.3" fill="none" stroke="#7a6a3a" stroke-width=".8"/></pattern>
@@ -668,7 +672,7 @@ function logSVG(i, depOverride){
     <pattern id="p-veg" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M1 7l2-4 2 4M5 4l1-2 1 2" stroke="#3b2d15" stroke-width=".9" fill="none"/></pattern>
   </defs>`;
   let g = defs;
-  for (let m=0; m<=dep+1e-9; m+=0.5){ const y=top+m*sc; const maj = Number.isInteger(m); g += `<line x1="${x0-(maj?10:5)}" y1="${y}" x2="${x0}" y2="${y}" stroke="#4A5560" stroke-width="1"/>`; if(maj) g+=`<text x="${x0-14}" y="${y+4}" font-size="11" text-anchor="end" fill="#4A5560">${m.toFixed(1)}</text>`; }
+  for (let m=0; m<=dep+1e-9; m+=0.5){ const y=top+m*sc; const maj = Number.isInteger(m); g += `<line x1="${x0-(maj?10:5)}" y1="${y}" x2="${x0}" y2="${y}" stroke="#4A5560" stroke-width="1"/>`; if(maj) g+=`<text x="${x0-12}" y="${y+4}" font-size="10" text-anchor="end" fill="#4A5560">${m.toFixed(0)}</text>`; }
   g += `<line x1="${x0}" y1="${top}" x2="${x0}" y2="${top+dep*sc}" stroke="#4A5560"/>`;
   i.straturi.forEach(s => {
     const la = s.la ?? dep; const y=top+s.de*sc, h=(la-s.de)*sc; const Lh=litho(s.descriere);
@@ -751,8 +755,9 @@ function renderDetail(id){
     const dep = Math.ceil(Math.max(depB, t.adancime)*2)/2;
     const qmax = t.sumar.qc_max > 30 ? 50 : (t.sumar.qc_max > 15 ? 30 : 15);
     const host = document.getElementById('litho-cpt'); if(!host) return;
+    host.closest('.cols').classList.add('wide');
     host.innerHTML = `<div class="ch">${logSVG(i, dep)}</div>
-      <div class="ch"><h4>q<sub>c</sub> <small>MPa · ${t.id}</small></h4>${profileSVG(t.z, t.qc, {max:qmax, color:'#F28C00', dep, fill:true, ticks:3, hline:depB})}</div>
+      <div class="ch"><h4>q<sub>c</sub> <small>MPa · ${t.id}</small></h4>${profileSVG(t.z, t.qc, {max:qmax, color:'#F28C00', dep, fill:true, ticks:3, hline:depB, W:130})}</div>
       <div class="ch"><h4>SBT</h4>${depthAxisSVG(dep, t.straturi_sbt, true)}</div>`;
     host.querySelectorAll('svg.log').forEach(s=>{ s.style.height='720px'; s.style.width='auto'; });
     document.getElementById('litho-h').innerHTML = `Coloană litologică + CPT <span class="n"><a href="#/cpt/${t.id}">${t.id}</a> la ${near.d.toFixed(0)} m${t.tip==='CPTu'?' (piezocon)':''} · adâncimi în m</span>`;
@@ -764,8 +769,8 @@ function loadCPT(){ return CPTFULL ? Promise.resolve(CPTFULL) : fetch('cpt.json'
 
 function profileSVG(z, v, opts){
   // diagramă verticală: adâncime pe Oy (în jos), valoare pe Ox
-  const {max, color='#0069B4', unit='', dep, ticks=4, fill=false, ref=null, log=false, bands=null, hline=null} = opts;
-  const W=170, H=640, top=14, left=34, right=8, sc=H/dep;
+  const {max, color='#0069B4', unit='', dep, ticks=4, fill=false, ref=null, log=false, bands=null, hline=null, W=170} = opts;
+  const H=640, top=14, left=W<160?22:34, right=8, sc=H/dep;
   const vx = x => { x = Math.max(0, Math.min(max, x)); return left + (log ? Math.log10(1+x)/Math.log10(1+max) : x/max) * (W-left-right); };
   let g = '';
   if (bands) bands.forEach(b => { g += `<rect x="${left}" y="${top+b.de*sc}" width="${W-left-right}" height="${(b.la-b.de)*sc}" fill="${b.culoare}" opacity=".35"/>`; });
