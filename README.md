@@ -60,7 +60,7 @@ Necesită `openpyxl` și `Pillow`. Pentru un foraj nou: adaugă blocul în Excel
 ## Observații asupra datelor
 
 - FC2: fișa este datată 05.10.2026, pozele au fost transmise pe 06.10.2026; adâncime 12,50 m (proiectat 12 m); NH = 2,20 m.
-- FC3: oprit la 9,50 m (proiectat 12 m) – „materialul cădea din sapă”; NH = 2,60 m, la 24 h 2,46 m.
+- FC3: oprit la 9,50 m (proiectat 12 m); NH = 2,60 m, la 24 h 2,46 m.
 - Fișierul `1-CPTB12.txt` are în antet `TestNumber: CPTB22` (eroare de operator); s-a reținut CPTB12 (nume fișier + plan).
 - CPTB211 este înregistrat cu piezocon (u2 măsurat), deci apare ca CPTu (6 CPTu în total, nu 5 ca în ofertă).
 - Pozițiile CPT provin din KMZ-ul de teren (`SIBIU - CPT - 11-April.kmz`); pentru 10 teste nu există poziție măsurată

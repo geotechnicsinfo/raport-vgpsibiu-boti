@@ -40,7 +40,7 @@ FISE = [
    (8.40, 8.80, 'mâl nisipos cenușiu-negricios, consistent/moale', ''),
    (8.80, 9.50, 'nisip fin mâlos, cenușiu-negricios', 'p9 – 9,00 m pp'),
   ],
-  'obs': 'Între 8,40 și 9,50 m: alternanță de mâl nisipos cu nisip mâlos. De la 9,50 m nisip – materialul cădea din sapă (foraj oprit la 9,50 m).'},
+  'obs': 'Între 8,40 și 9,50 m: alternanță de mâl nisipos cu nisip mâlos.'},
 ]
 
 
