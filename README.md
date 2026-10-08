@@ -75,5 +75,5 @@ Necesită `openpyxl` și `Pillow`. Pentru un foraj nou: adaugă blocul în Excel
 python -m http.server 8000     # apoi http://localhost:8000
 ```
 
-Publicare: repo GitHub `geotechnicsinfo/raport-sibiu-boti`, Settings → Pages → Source: *GitHub Actions*;
+Publicare: repo GitHub `geotechnicsinfo/raport-vgpsibiu-boti`, Settings → Pages → Source: *GitHub Actions*;
 workflow-ul `.github/workflows/pages.yml` publică la fiecare push pe `main`.
