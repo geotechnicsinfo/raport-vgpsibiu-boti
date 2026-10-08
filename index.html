@@ -178,7 +178,8 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
 .kv b.mono{font-size:13px}
 .kv.water b{color:var(--water)}
 .kv .sm{font-size:12px;color:var(--ink-3);margin-top:2px}
-.cols{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
+.cols{display:grid;grid-template-columns:minmax(300px,auto) 1fr;gap:22px;align-items:start}
+#litho-cpt .ch svg.log{height:720px;width:auto}
 @media(max-width:800px){.cols{grid-template-columns:1fr}}
 .panel{border:1px solid var(--line);border-radius:var(--r);background:#fff}
 .panel h3{font-size:17px;color:var(--navy);padding:10px 14px;border-bottom:1px solid var(--line-2);background:var(--bg-2);display:flex;align-items:center;gap:8px}
@@ -656,9 +657,9 @@ function miniMap(el, lat, lon, color, proiectat){
 }
 
 /* ============================ DETAIL FORAJ ============================ */
-function logSVG(i){
-  const dep = Math.max(+i.adancime||12, ...i.straturi.map(s=>s.la||0));
-  const W=300, top=22, H=640, sc=H/dep, x0=70, cw=70;
+function logSVG(i, depOverride){
+  const dep = depOverride || Math.max(+i.adancime||12, ...i.straturi.map(s=>s.la||0));
+  const W=300, top=14, H=640, sc=H/dep, x0=70, cw=70;
   const defs = `<defs>
     <pattern id="p-sand" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="#7a6a3a"/><circle cx="6" cy="6" r=".9" fill="#7a6a3a"/></pattern>
     <pattern id="p-gravel" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.8" fill="none" stroke="#7a6a3a" stroke-width=".8"/><circle cx="8" cy="7" r="1.3" fill="none" stroke="#7a6a3a" stroke-width=".8"/></pattern>
@@ -677,7 +678,7 @@ function logSVG(i){
   });
   g += `<text x="${x0+cw+8}" y="${top+dep*sc+3}" font-size="10" fill="#7B8794">${dep.toFixed(2).replace('.',',')}</text>`;
   if (i.NH!=null){ const y=top+i.NH*sc; g += `<polygon points="${x0+cw+30},${y-9} ${x0+cw+38},${y} ${x0+cw+22},${y}" fill="#1F8FD8"/><line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1.5" stroke-dasharray="4 3"/><text x="${x0+cw+44}" y="${y+4}" font-size="11" fill="#1F8FD8" font-weight="600">NH ${n2(i.NH)} m</text>`; }
-  if (i.NH_24h!=null && i.NH_24h!==i.NH){ const y=top+i.NH_24h*sc; g += `<line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1" stroke-dasharray="2 3"/><text x="${x0+cw+44}" y="${y+12}" font-size="10" fill="#1F8FD8">24 h: ${n2(i.NH_24h)} m</text>`; }
+  if (i.NH_24h!=null && i.NH_24h!==i.NH){ const y=top+i.NH_24h*sc, yN=top+(i.NH||0)*sc; const ty = Math.abs(y-yN)<16 ? Math.max(y,yN)+14 : y+4; g += `<line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1" stroke-dasharray="2 3"/><text x="${x0+cw+44}" y="${ty}" font-size="10" fill="#1F8FD8">24 h: ${n2(i.NH_24h)} m</text>`; }
   if (i.IN!=null){ const y=top+i.IN*sc; g += `<line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1" stroke-dasharray="2 3"/><text x="${x0+cw+44}" y="${y+4}" font-size="10.5" fill="#1F8FD8">infiltrație ${n2(i.IN)} m</text>`; }
   i.probe.forEach(p => { const y=top+p.adancime*sc; const st=/ștuț/.test(p.tip);
     g += st ? `<rect x="${x0-7}" y="${y-6}" width="12" height="12" fill="#F28C00" stroke="#fff" stroke-width="1.2" transform="rotate(45 ${x0-1} ${y})"><title>p${p.nr} – ștuț ${n2(p.adancime)} m</title></rect>` : `<circle cx="${x0-1}" cy="${y}" r="4" fill="#fff" stroke="#F28C00" stroke-width="2"><title>p${p.nr} – probă tulburată ${n2(p.adancime)} m</title></circle>`; });
@@ -708,11 +709,11 @@ function renderDetail(id){
       <div class="kv"><span>GPS teren (WGS84)</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.gps_dms.join(' · ')||i.coord_sursa)}</div></div>
       <div class="kv"><span>Punct proiectat · Stereo 70</span><b class="mono">${i.proiectat&&i.proiectat.stereo70?`E ${i.proiectat.stereo70.E.toFixed(2)} · N ${i.proiectat.stereo70.N.toFixed(2)}`:'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.obs):''}</div></div>
       <div class="kv"><span>Probe</span><b>${i.probe.filter(p=>/ștuț/.test(p.tip)).length} ștuțuri · ${i.probe.filter(p=>!/ștuț/.test(p.tip)).length} tulburate</b><div class="sm">${i.probe.length} înregistrări în fișă</div></div>
-      <div class="kv"><span>CPT în vecinătate (≤ 80 m)</span><b>${nc.length?nc.map(x=>`<a href="#/cpt/${x.t.id}">${x.t.id}</a> <span style="color:var(--ink-3);font-weight:400">${x.d.toFixed(0)} m</span>`).join(' · '):'—'}</b>${gmaps?`<div class="sm"><a href="${gmaps}" target="_blank" rel="noopener">Deschide în Google Maps ↗</a></div>`:''}</div>
+      <div class="kv"><span>CPT în vecinătate (≤ 80 m)</span><b>${nc.length?nc.map(x=>`<a href="#/cpt/${x.t.id}">${x.t.id}</a> <span style="color:var(--ink-3);font-weight:400">${x.d.toFixed(0)} m</span>`).join(', '):'—'}</b>${gmaps?`<div class="sm"><a href="${gmaps}" target="_blank" rel="noopener">Deschide în Google Maps ↗</a></div>`:''}</div>
     </div>
 
     <div class="cols">
-      <div class="panel"><h3>Coloană litologică <span class="n">adâncimi în m</span></h3><div class="in">${logSVG(i)}<div class="legend" style="margin-top:6px">${legend}<span><i style="background:#F28C00;border-radius:2px;transform:rotate(45deg)"></i>ștuț</span><span><i style="background:#fff;border:2px solid #F28C00"></i>probă tulburată</span></div></div></div>
+      <div class="panel"><h3 id="litho-h">Coloană litologică <span class="n">adâncimi în m</span></h3><div class="in"><div id="litho-cpt" class="cpt-charts" style="border:0;border-radius:0"><div class="ch">${logSVG(i)}</div></div><div class="legend" style="margin-top:6px">${legend}<span><i style="background:#F28C00;border-radius:2px;transform:rotate(45deg)"></i>ștuț</span><span><i style="background:#fff;border:2px solid #F28C00"></i>probă tulburată</span></div></div></div>
       <div>
         <div class="panel"><h3>Stratificație (din fișa de teren) <span class="n">${i.straturi.length} straturi</span></h3>
           <div class="tblwrap" style="border:0"><table class="tbl"><thead><tr><th>De la [m]</th><th>Până la [m]</th><th>Gros. [m]</th><th>Descriere</th></tr></thead><tbody>
@@ -742,6 +743,20 @@ function renderDetail(id){
   document.querySelectorAll('#gal a').forEach(a => a.onclick = e => { e.preventDefault(); openLB(imgs, +a.dataset.k); });
   document.querySelectorAll('a[data-fisa]').forEach(a => a.onclick = e => { e.preventDefault(); openLB(imgs, i.poze.length + (+a.dataset.fisa)); });
   miniMap(document.getElementById('minimap'), i.lat, i.lon, '#0069B4', i.proiectat);
+  // cel mai apropiat CPT: qc + SBT alături de coloana litologică, la aceeași scară de adâncime
+  const near = nearCPT(i.lat, i.lon, 150)[0];
+  if (near) loadCPT().then(J => {
+    const t = J.teste.find(x=>x.id===near.t.id); if(!t) return;
+    const depB = Math.max(+i.adancime||12, ...i.straturi.map(s=>s.la||0));
+    const dep = Math.ceil(Math.max(depB, t.adancime)*2)/2;
+    const qmax = t.sumar.qc_max > 30 ? 50 : (t.sumar.qc_max > 15 ? 30 : 15);
+    const host = document.getElementById('litho-cpt'); if(!host) return;
+    host.innerHTML = `<div class="ch">${logSVG(i, dep)}</div>
+      <div class="ch"><h4>q<sub>c</sub> <small>MPa · ${t.id}</small></h4>${profileSVG(t.z, t.qc, {max:qmax, color:'#F28C00', dep, fill:true, ticks:3, hline:depB})}</div>
+      <div class="ch"><h4>SBT</h4>${depthAxisSVG(dep, t.straturi_sbt, true)}</div>`;
+    host.querySelectorAll('svg.log').forEach(s=>{ s.style.height='720px'; s.style.width='auto'; });
+    document.getElementById('litho-h').innerHTML = `Coloană litologică + CPT <span class="n"><a href="#/cpt/${t.id}">${t.id}</a> la ${near.d.toFixed(0)} m${t.tip==='CPTu'?' (piezocon)':''} · adâncimi în m</span>`;
+  }).catch(()=>{});
 }
 
 /* ============================ DETAIL CPT ============================ */
@@ -749,7 +764,7 @@ function loadCPT(){ return CPTFULL ? Promise.resolve(CPTFULL) : fetch('cpt.json'
 
 function profileSVG(z, v, opts){
   // diagramă verticală: adâncime pe Oy (în jos), valoare pe Ox
-  const {max, color='#0069B4', unit='', dep, ticks=4, fill=false, ref=null, log=false, bands=null} = opts;
+  const {max, color='#0069B4', unit='', dep, ticks=4, fill=false, ref=null, log=false, bands=null, hline=null} = opts;
   const W=170, H=640, top=14, left=34, right=8, sc=H/dep;
   const vx = x => { x = Math.max(0, Math.min(max, x)); return left + (log ? Math.log10(1+x)/Math.log10(1+max) : x/max) * (W-left-right); };
   let g = '';
@@ -757,6 +772,7 @@ function profileSVG(z, v, opts){
   for (let t=0; t<=ticks; t++){ const val = log ? (Math.pow(1+max, t/ticks)-1) : max*t/ticks; const x=vx(val); g += `<line x1="${x}" y1="${top}" x2="${x}" y2="${top+dep*sc}" stroke="#EDF0F3"/><text x="${x}" y="${top-4}" font-size="9" text-anchor="middle" fill="#7B8794">${val>=10?val.toFixed(0):val.toFixed(1).replace('.',',')}</text>`; }
   for (let m=0; m<=dep+1e-9; m+=1){ const y=top+m*sc; g += `<line x1="${left}" y1="${y}" x2="${W-right}" y2="${y}" stroke="#EDF0F3"/>`; }
   if (ref!=null){ const x=vx(ref); g += `<line x1="${x}" y1="${top}" x2="${x}" y2="${top+dep*sc}" stroke="#7B8794" stroke-dasharray="3 3"/>`; }
+  if (hline!=null){ const y=top+hline*sc; g += `<line x1="${left}" y1="${y}" x2="${W-right}" y2="${y}" stroke="#0069B4" stroke-width="1.2" stroke-dasharray="5 3"/><text x="${W-right-2}" y="${y-3}" font-size="8.5" text-anchor="end" fill="#0069B4">talpa foraj</text>`; }
   let d = '', area = `M${left},${top}`;
   for (let k=0; k<z.length; k++){ if (v[k]==null) continue; const x=vx(v[k]), y=top+z[k]*sc; d += (d?'L':'M')+x.toFixed(1)+','+y.toFixed(1); area += ` L${x.toFixed(1)},${y.toFixed(1)}`; }
   area += ` L${left},${top+z[z.length-1]*sc} Z`;
@@ -765,9 +781,10 @@ function profileSVG(z, v, opts){
   g += `<rect x="${left}" y="${top}" width="${W-left-right}" height="${dep*sc}" fill="none" stroke="#D9DFE5"/>`;
   return `<svg viewBox="0 0 ${W} ${H+top+8}" xmlns="http://www.w3.org/2000/svg">${g}</svg>`;
 }
-function depthAxisSVG(dep, straturi){
-  const W=70, H=640, top=14, sc=H/dep, x0=46, cw=18;
+function depthAxisSVG(dep, straturi, bar){
+  const W=bar?34:70, H=640, top=14, sc=H/dep, x0=bar?6:46, cw=18;
   let g = '';
+  if (bar){ straturi.forEach(s => { g += `<rect x="${x0}" y="${top+s.de*sc}" width="${cw}" height="${(s.la-s.de)*sc}" fill="${s.culoare}" stroke="#4A5560" stroke-width=".6"><title>${s.de}–${s.la} m: ${esc(s.sbt)}</title></rect>`; }); return `<svg viewBox="0 0 ${W} ${H+top+8}" xmlns="http://www.w3.org/2000/svg">${g}</svg>`; }
   for (let m=0; m<=dep+1e-9; m+=0.5){ const y=top+m*sc; const maj=Number.isInteger(m); g += `<line x1="${x0-(maj?8:4)}" y1="${y}" x2="${x0}" y2="${y}" stroke="#4A5560"/>`; if(maj) g+=`<text x="${x0-11}" y="${y+3.5}" font-size="10" text-anchor="end" fill="#4A5560">${m}</text>`; }
   g += `<line x1="${x0}" y1="${top}" x2="${x0}" y2="${top+dep*sc}" stroke="#4A5560"/>`;
   straturi.forEach(s => { g += `<rect x="${x0+2}" y="${top+s.de*sc}" width="${cw}" height="${(s.la-s.de)*sc}" fill="${s.culoare}" stroke="#4A5560" stroke-width=".6"><title>${s.de}–${s.la} m: ${esc(s.sbt)}</title></rect>`; });
@@ -809,7 +826,7 @@ function renderCPTDetail(id){
         ${t.u2?`<div class="kv water"><span>u<sub>2</sub> maxim</span><b>${n1(t.sumar.u2_max)} kPa</b><div class="sm">piezocon, a = 0,80</div></div>`:''}
         <div class="kv"><span>Poziție (WGS84)</span><b class="mono">${t.lat!=null?t.lat.toFixed(6)+', '+t.lon.toFixed(6):'—'}</b><div class="sm">${esc(t.coord_sursa)}${gmaps?` · <a href="${gmaps}" target="_blank" rel="noopener">Google Maps ↗</a>`:''}</div></div>
         <div class="kv"><span>Stereo 70</span><b class="mono">${t.stereo70?`E ${t.stereo70.E.toFixed(2)} · N ${t.stereo70.N.toFixed(2)}`:'—'}</b><div class="sm">con ${esc(t.con||'')} · înclinare max. ${n1(t.sumar.incl_max)}°</div></div>
-        <div class="kv"><span>Foraje în vecinătate (≤ 80 m)</span><b>${nf.length?nf.map(x=>`<a href="#/i/${x.i.id}">${x.i.id}</a> <span style="color:var(--ink-3);font-weight:400">${x.d.toFixed(0)} m</span>`).join(' · '):'—'}</b></div>
+        <div class="kv"><span>Foraje în vecinătate (≤ 80 m)</span><b>${nf.length?nf.map(x=>`<a href="#/i/${x.i.id}">${x.i.id}</a> <span style="color:var(--ink-3);font-weight:400">${x.d.toFixed(0)} m</span>`).join(', '):'—'}</b></div>
       </div>
 
       <div class="cpt-charts">
