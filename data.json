@@ -1,0 +1,7561 @@
+{
+ "stadiu": [
+  {
+   "categorie": "Foraje geotehnice – clădirea C",
+   "hala": "C",
+   "proiectate": 5,
+   "executate": 2,
+   "neexecutate": [
+    "FC1",
+    "FC4",
+    "FC5"
+   ]
+  },
+  {
+   "categorie": "Foraje geotehnice – clădirea D",
+   "hala": "D",
+   "proiectate": 7,
+   "executate": 0,
+   "neexecutate": [
+    "FD1",
+    "FD2",
+    "FD3",
+    "FD4",
+    "FD5",
+    "FD6",
+    "FD7"
+   ]
+  },
+  {
+   "categorie": "Foraje geotehnice – clădirea E",
+   "hala": "E",
+   "proiectate": 5,
+   "executate": 0,
+   "neexecutate": [
+    "FE1",
+    "FE2",
+    "FE3",
+    "FE4",
+    "FE5"
+   ]
+  },
+  {
+   "categorie": "Foraje geotehnice – total",
+   "hala": null,
+   "proiectate": 17,
+   "executate": 2,
+   "neexecutate": [
+    "FC1",
+    "FC4",
+    "FC5",
+    "FD1",
+    "FD2",
+    "FD3",
+    "FD4",
+    "FD5",
+    "FD6",
+    "FD7",
+    "FE1",
+    "FE2",
+    "FE3",
+    "FE4",
+    "FE5"
+   ]
+  },
+  {
+   "categorie": "Penetrări statice CPT/CPTu (apr. 2025)",
+   "hala": null,
+   "proiectate": 40,
+   "executate": 40,
+   "neexecutate": []
+  }
+ ],
+ "proiect": {
+  "titlu": "Investigații geotehnice – VGP Park Sibiu, clădirile C, D, E",
+  "beneficiar_lucrare": "VGP PARK SIBIU SRL – hale logistice C, D și E (Sameday)",
+  "amplasament": "VGP Park Sibiu, Calea Șurii Mari / DN 14, mun. Sibiu, jud. Sibiu",
+  "executant": "SC BBCGEOTECHNIC SRL",
+  "tip_lucrari": "Foraje geotehnice cu prelevare de probe (12 m, FC/FD/FE) și penetrări statice CPT/CPTu (15 m, aprilie 2025)",
+  "perioada": {
+   "de_la": "2026-10-05",
+   "pana_la": "2026-10-06"
+  },
+  "perioada_cpt": {
+   "de_la": "2025-04-03",
+   "pana_la": "2025-04-13"
+  },
+  "generat": "2026-10-08"
+ },
+ "investigatii": [
+  {
+   "id": "FC2",
+   "id_fisa": "FC2",
+   "tip": "foraj",
+   "nr": 2,
+   "hala": "C",
+   "categorie_kml": "Foraj geotehnic – clădirea C",
+   "eticheta": "Foraj geotehnic FC2",
+   "data": "2026-10-05",
+   "nota_data": "Fișa este datată 2026-10-05; fotografiile au fost transmise pe 2026-10-06. S-a reținut data din fișă. Între 6,60 și 10,80 m: alternanță de nisip cu lentile de nisip argilos (notă din fișă).",
+   "adancime": 12.5,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=2.20m",
+   "NH": 2.2,
+   "NH_24h": 2.2,
+   "IN": null,
+   "note_apa": [
+    "NH la 24 h = 2,20 m"
+   ],
+   "gps_dms": [
+    "N 45°49'33.823\"",
+    "E 024°08'46.201\""
+   ],
+   "lat": 45.826062,
+   "lon": 24.146167,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FC2",
+    "lat": 45.826082,
+    "lon": 24.146242,
+    "stereo70": {
+     "E": 433795.61,
+     "N": 481060.2
+    },
+    "obs": "Foraj + probe + laborator – clădirea C",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "umplutură – praf argilos slab nisipos, negru, cu pietriș mic"
+    },
+    {
+     "de": 0.1,
+     "la": 0.6,
+     "descriere": "argilă prăfoasă, slab nisipoasă, neagră, vârtoasă"
+    },
+    {
+     "de": 0.6,
+     "la": 1.3,
+     "descriere": "argilă prăfoasă, nisipoasă, cafeniu-negricioasă, vârtoasă"
+    },
+    {
+     "de": 1.3,
+     "la": 3.5,
+     "descriere": "argilă prăfoasă nisipoasă, cafenie, consistentă/vârtoasă, cu mici fragmente de piatră; la 2,20 m apă; de la 2,30 m consistentă"
+    },
+    {
+     "de": 3.5,
+     "la": 3.6,
+     "descriere": "nisip fin prăfos, cenușiu"
+    },
+    {
+     "de": 3.6,
+     "la": 5.8,
+     "descriere": "argilă nisipoasă cafenie, consistent-vârtoasă, în alternanță cu praf nisipos"
+    },
+    {
+     "de": 5.8,
+     "la": 6.6,
+     "descriere": "nisip mediu cafeniu cu intercalații cenușii"
+    },
+    {
+     "de": 6.6,
+     "la": 6.9,
+     "descriere": "nisip cu granulație mare, cafeniu, cu pietriș mic"
+    },
+    {
+     "de": 6.9,
+     "la": 7.7,
+     "descriere": "nisip argilos cenușiu"
+    },
+    {
+     "de": 7.7,
+     "la": 8.2,
+     "descriere": "nisip prăfos cenușiu"
+    },
+    {
+     "de": 8.2,
+     "la": 9.3,
+     "descriere": "nisip cu granulație mare, cenușiu, cu pietriș mic, în liant prăfos"
+    },
+    {
+     "de": 9.3,
+     "la": 10.2,
+     "descriere": "nisip mediu cenușiu"
+    },
+    {
+     "de": 10.2,
+     "la": 10.4,
+     "descriere": "argilă nisipoasă, cenușiu-negricioasă, consistentă, cu miros de baltă, resturi vegetale și mici fragmente de cochilii"
+    },
+    {
+     "de": 10.4,
+     "la": 10.8,
+     "descriere": "nisip cu granulație mare, cenușiu, cu rar pietriș mic, în alternanță cu mici lentile de argilă"
+    },
+    {
+     "de": 10.8,
+     "la": 12.5,
+     "descriere": "argilă cenușiu-negricioasă, slab nisipoasă, consistentă"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 9,
+     "adancime": 9.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 10,
+     "adancime": 10.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 11,
+     "adancime": 10.2,
+     "tip": "probă tulburată (pungă)",
+     "observatii": "interval 10,20–10,80 m"
+    },
+    {
+     "nr": 12,
+     "adancime": 11.5,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 13,
+     "adancime": 12.5,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "inox Ø60"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FC2/fisa1.jpg",
+    "thumb": "photos/FC2/t_fisa1.jpg",
+    "original": "FC2-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FC2/fisa1.jpg",
+     "thumb": "photos/FC2/t_fisa1.jpg",
+     "original": "FC2-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FC2/fisa2.jpg",
+     "thumb": "photos/FC2/t_fisa2.jpg",
+     "original": "FC2-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FC2/01.jpg",
+     "thumb": "photos/FC2/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.10.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/02.jpg",
+     "thumb": "photos/FC2/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.101.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/03.jpg",
+     "thumb": "photos/FC2/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.102.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/04.jpg",
+     "thumb": "photos/FC2/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.103.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/05.jpg",
+     "thumb": "photos/FC2/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.114.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/06.jpg",
+     "thumb": "photos/FC2/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.115.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/07.jpg",
+     "thumb": "photos/FC2/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.116.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/08.jpg",
+     "thumb": "photos/FC2/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.117.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/09.jpg",
+     "thumb": "photos/FC2/t_09.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.12.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/10.jpg",
+     "thumb": "photos/FC2/t_10.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.121.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    },
+    {
+     "src": "photos/FC2/11.jpg",
+     "thumb": "photos/FC2/t_11.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 18.36.122.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 18:36"
+    }
+   ]
+  },
+  {
+   "id": "FC3",
+   "id_fisa": "FC3",
+   "tip": "foraj",
+   "nr": 3,
+   "hala": "C",
+   "categorie_kml": "Foraj geotehnic – clădirea C",
+   "eticheta": "Foraj geotehnic FC3",
+   "data": "2026-10-06",
+   "nota_data": "Fișa este datată 2026-10-06; fotografiile au fost transmise pe 2026-10-07. S-a reținut data din fișă. Între 8,40 și 9,50 m: alternanță de mâl nisipos cu nisip mâlos. De la 9,50 m nisip – materialul cădea din sapă (foraj oprit la 9,50 m).",
+   "adancime": 9.5,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=2.60m",
+   "NH": 2.6,
+   "NH_24h": 2.46,
+   "IN": null,
+   "note_apa": [
+    "NH la 24 h = 2,46 m"
+   ],
+   "gps_dms": [
+    "N 45°49'35.386\"",
+    "E 024°08'45.377\""
+   ],
+   "lat": 45.826496,
+   "lon": 24.145938,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FC3",
+    "lat": 45.826506,
+    "lon": 24.145906,
+    "stereo70": {
+     "E": 433770.04,
+     "N": 481107.62
+    },
+    "obs": "Foraj + probe + laborator – clădirea C",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "umplutură – praf argilos cu pietriș"
+    },
+    {
+     "de": 0.1,
+     "la": 0.8,
+     "descriere": "argilă prăfoasă cafeniu-negricioasă, vârtoasă"
+    },
+    {
+     "de": 0.8,
+     "la": 1.6,
+     "descriere": "argilă prăfoasă cafenie, vârtoasă; de la 1,30 m consistentă, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.6,
+     "la": 3.3,
+     "descriere": "argilă nisipoasă cafenie, consistentă; la 2,70 m apă"
+    },
+    {
+     "de": 3.3,
+     "la": 4.7,
+     "descriere": "nisip fin prăfos, cafeniu"
+    },
+    {
+     "de": 4.7,
+     "la": 5.7,
+     "descriere": "argilă nisipoasă cafenie, consistentă"
+    },
+    {
+     "de": 5.7,
+     "la": 6.3,
+     "descriere": "nisip mediu cafeniu, slab argilos"
+    },
+    {
+     "de": 6.3,
+     "la": 7.1,
+     "descriere": "nisip cu granulație mare, cafeniu, cu rar pietriș mic; la 6,70 m o lentilă de argilă de 10 cm"
+    },
+    {
+     "de": 7.1,
+     "la": 7.6,
+     "descriere": "pietriș mic nisipos, cafeniu"
+    },
+    {
+     "de": 7.6,
+     "la": 8.4,
+     "descriere": "argilă nisipoasă cenușie, consistentă, cu un ușor miros de baltă"
+    },
+    {
+     "de": 8.4,
+     "la": 8.8,
+     "descriere": "mâl nisipos cenușiu-negricios, consistent/moale"
+    },
+    {
+     "de": 8.8,
+     "la": 9.5,
+     "descriere": "nisip fin mâlos, cenușiu-negricios"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "inox Ø60"
+    },
+    {
+     "nr": 9,
+     "adancime": 9.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FC3/fisa1.jpg",
+    "thumb": "photos/FC3/t_fisa1.jpg",
+    "original": "FC3-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FC3/fisa1.jpg",
+     "thumb": "photos/FC3/t_fisa1.jpg",
+     "original": "FC3-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FC3/fisa2.jpg",
+     "thumb": "photos/FC3/t_fisa2.jpg",
+     "original": "FC3-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FC3/01.jpg",
+     "thumb": "photos/FC3/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.45.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/02.jpg",
+     "thumb": "photos/FC3/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.46.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/03.jpg",
+     "thumb": "photos/FC3/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.461.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/04.jpg",
+     "thumb": "photos/FC3/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.50.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/05.jpg",
+     "thumb": "photos/FC3/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.501.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/06.jpg",
+     "thumb": "photos/FC3/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.502.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/07.jpg",
+     "thumb": "photos/FC3/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.503.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/08.jpg",
+     "thumb": "photos/FC3/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.504.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    },
+    {
+     "src": "photos/FC3/09.jpg",
+     "thumb": "photos/FC3/t_09.jpg",
+     "original": "WhatsApp Image 2026-10-07 at 13.41.515.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-07 13:41"
+    }
+   ]
+  }
+ ],
+ "puncte_proiectate": [
+  {
+   "id": "FC1",
+   "lat": 45.82678,
+   "lon": 24.146479,
+   "tip": "Foraj + probe + laborator",
+   "hala": "C",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea C",
+   "stereo70": {
+    "E": 433814.83,
+    "N": 481137.56
+   }
+  },
+  {
+   "id": "FC2",
+   "lat": 45.826082,
+   "lon": 24.146242,
+   "tip": "Foraj + probe + laborator",
+   "hala": "C",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea C",
+   "stereo70": {
+    "E": 433795.61,
+    "N": 481060.2
+   }
+  },
+  {
+   "id": "FC3",
+   "lat": 45.826506,
+   "lon": 24.145906,
+   "tip": "Foraj + probe + laborator",
+   "hala": "C",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea C",
+   "stereo70": {
+    "E": 433770.04,
+    "N": 481107.62
+   }
+  },
+  {
+   "id": "FC4",
+   "lat": 45.82693,
+   "lon": 24.145571,
+   "tip": "Foraj + probe + laborator",
+   "hala": "C",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea C",
+   "stereo70": {
+    "E": 433744.46,
+    "N": 481155.03
+   }
+  },
+  {
+   "id": "FC5",
+   "lat": 45.826232,
+   "lon": 24.145334,
+   "tip": "Foraj + probe + laborator",
+   "hala": "C",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea C",
+   "stereo70": {
+    "E": 433725.25,
+    "N": 481077.68
+   }
+  },
+  {
+   "id": "FD1",
+   "lat": 45.826402,
+   "lon": 24.143092,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433551.29,
+    "N": 481098.44
+   }
+  },
+  {
+   "id": "FD2",
+   "lat": 45.826364,
+   "lon": 24.143811,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433607.08,
+    "N": 481093.6
+   }
+  },
+  {
+   "id": "FD3",
+   "lat": 45.826922,
+   "lon": 24.14351,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433584.37,
+    "N": 481155.8
+   }
+  },
+  {
+   "id": "FD4",
+   "lat": 45.827434,
+   "lon": 24.143204,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433561.22,
+    "N": 481213.01
+   }
+  },
+  {
+   "id": "FD5",
+   "lat": 45.827396,
+   "lon": 24.143923,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433617.01,
+    "N": 481208.18
+   }
+  },
+  {
+   "id": "FD6",
+   "lat": 45.8281,
+   "lon": 24.143405,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433577.66,
+    "N": 481286.87
+   }
+  },
+  {
+   "id": "FD7",
+   "lat": 45.828773,
+   "lon": 24.143478,
+   "tip": "Foraj + probe + laborator",
+   "hala": "D",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea D",
+   "stereo70": {
+    "E": 433584.13,
+    "N": 481361.59
+   }
+  },
+  {
+   "id": "FE1",
+   "lat": 45.82802,
+   "lon": 24.146128,
+   "tip": "Foraj + probe + laborator",
+   "hala": "E",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea E",
+   "stereo70": {
+    "E": 433789.05,
+    "N": 481275.7
+   }
+  },
+  {
+   "id": "FE2",
+   "lat": 45.828106,
+   "lon": 24.144502,
+   "tip": "Foraj + probe + laborator",
+   "hala": "E",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea E",
+   "stereo70": {
+    "E": 433662.89,
+    "N": 481286.63
+   }
+  },
+  {
+   "id": "FE3",
+   "lat": 45.828254,
+   "lon": 24.145336,
+   "tip": "Foraj + probe + laborator",
+   "hala": "E",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea E",
+   "stereo70": {
+    "E": 433727.8,
+    "N": 481302.31
+   }
+  },
+  {
+   "id": "FE4",
+   "lat": 45.828401,
+   "lon": 24.146169,
+   "tip": "Foraj + probe + laborator",
+   "hala": "E",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea E",
+   "stereo70": {
+    "E": 433792.71,
+    "N": 481317.99
+   }
+  },
+  {
+   "id": "FE5",
+   "lat": 45.828487,
+   "lon": 24.144544,
+   "tip": "Foraj + probe + laborator",
+   "hala": "E",
+   "status": "PROPUS",
+   "adancime": "12 m",
+   "obs": "clădirea E",
+   "stereo70": {
+    "E": 433666.55,
+    "N": 481328.92
+   }
+  }
+ ],
+ "hale": [
+  {
+   "nume": "Hala C",
+   "contur": [
+    [
+     45.827213,
+     24.145347
+    ],
+    [
+     45.82605,
+     24.144952
+    ],
+    [
+     45.825799,
+     24.146466
+    ],
+    [
+     45.826962,
+     24.14686
+    ],
+    [
+     45.827213,
+     24.145347
+    ]
+   ]
+  },
+  {
+   "nume": "Hala E",
+   "contur": [
+    [
+     45.828573,
+     24.146538
+    ],
+    [
+     45.828696,
+     24.144216
+    ],
+    [
+     45.827934,
+     24.144133
+    ],
+    [
+     45.827811,
+     24.146455
+    ],
+    [
+     45.828573,
+     24.146538
+    ]
+   ]
+  },
+  {
+   "nume": "Hala D",
+   "contur": [
+    [
+     45.828998,
+     24.143115
+    ],
+    [
+     45.826191,
+     24.142811
+    ],
+    [
+     45.826191,
+     24.142816
+    ],
+    [
+     45.826126,
+     24.144053
+    ],
+    [
+     45.827533,
+     24.144206
+    ],
+    [
+     45.827557,
+     24.143744
+    ],
+    [
+     45.828957,
+     24.143896
+    ],
+    [
+     45.828998,
+     24.143115
+    ]
+   ]
+  },
+  {
+   "nume": "Hala A1",
+   "contur": [
+    [
+     45.82604,
+     24.150504
+    ],
+    [
+     45.825137,
+     24.150197
+    ],
+    [
+     45.825004,
+     24.151
+    ],
+    [
+     45.825907,
+     24.151307
+    ],
+    [
+     45.82604,
+     24.150504
+    ]
+   ]
+  },
+  {
+   "nume": "Hala A2",
+   "contur": [
+    [
+     45.826221,
+     24.149413
+    ],
+    [
+     45.825318,
+     24.149107
+    ],
+    [
+     45.825185,
+     24.149909
+    ],
+    [
+     45.826088,
+     24.150216
+    ],
+    [
+     45.826221,
+     24.149413
+    ]
+   ]
+  },
+  {
+   "nume": "Hala B",
+   "contur": [
+    [
+     45.826852,
+     24.147524
+    ],
+    [
+     45.825688,
+     24.14713
+    ],
+    [
+     45.825437,
+     24.148644
+    ],
+    [
+     45.826601,
+     24.149039
+    ],
+    [
+     45.826852,
+     24.147524
+    ]
+   ]
+  }
+ ],
+ "cpt": {
+  "generat": "2026-10-08",
+  "nr": 40,
+  "nr_cptu": 6,
+  "ml": 602.01,
+  "perioada": {
+   "de_la": "2025-04-03",
+   "pana_la": "2025-04-13"
+  },
+  "echipament": "Geo-Explorer v2.0 (Geomil); con electric S10-CFI.2030 (10 cm²) / piezocon C15-CFIP.2194 (15 cm²)",
+  "ipoteze": "Ic după Robertson (2009), γ estimat din Ic (Robertson & Cabal 2010), a = 0.8 pentru piezocon, NH presupus la 2.40 m (din FC2/FC3, oct. 2026).",
+  "sbt": {
+   "1": "sensibil, fin",
+   "2": "organic / turbă",
+   "3": "argilă – argilă prăfoasă",
+   "4": "praf argilos – argilă prăfoasă",
+   "5": "nisip prăfos – praf nisipos",
+   "6": "nisip – nisip prăfos",
+   "7": "nisip îndesat – nisip cu pietriș",
+   "8": "nisip foarte îndesat / cimentat",
+   "9": "fin, foarte rigid (supraconsolidat)"
+  },
+  "sbt_culori": {
+   "1": "#B5B5B5",
+   "2": "#8B6B4E",
+   "3": "#A8814D",
+   "4": "#C9A46B",
+   "5": "#E4C27C",
+   "6": "#F3D36B",
+   "7": "#F0B35B",
+   "8": "#D98F3E",
+   "9": "#9C8C78"
+  },
+  "teste": [
+   {
+    "id": "CPTA1",
+    "tip": "CPT",
+    "data": "2025-04-03",
+    "adancime": 15.16,
+    "hala": "A1",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825881,
+    "lon": 24.150997,
+    "stereo70": {
+     "E": 434164.78,
+     "N": 481033.91
+    },
+    "qc_med": 2.75,
+    "qc_max": 18.7,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.72,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.72,
+      "la": 4.46,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.46,
+      "la": 8.24,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 8.24,
+      "la": 9.15,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 9.15,
+      "la": 10.05,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.05,
+      "la": 11.39,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 11.39,
+      "la": 15.16,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.6,
+      "qc_max": 2.22
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.48,
+      "qc_max": 2.2
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 0.94,
+      "qc_max": 1.5
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.36,
+      "qc_max": 3.64
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.33,
+      "qc_max": 3.08
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.84,
+      "qc_max": 3.78
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.05,
+      "qc_max": 2.87
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.51,
+      "qc_max": 4.86
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 3.58,
+      "qc_max": 5.65
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 10.5,
+      "qc_max": 18.7
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 7.13,
+      "qc_max": 16.44
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.85,
+      "qc_max": 8.68
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.36,
+      "qc_max": 2.85
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.0,
+      "qc_max": 5.09
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.76,
+      "qc_max": 1.92
+     },
+     {
+      "de": 15,
+      "la": 15.160000001,
+      "qc_med": 1.66,
+      "qc_max": 1.72
+     }
+    ]
+   },
+   {
+    "id": "CPTA2",
+    "tip": "CPT",
+    "data": "2025-04-03",
+    "adancime": 15.17,
+    "hala": "A1/A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826019,
+    "lon": 24.150272,
+    "stereo70": {
+     "E": 434108.63,
+     "N": 481049.94
+    },
+    "qc_med": 2.91,
+    "qc_max": 23.88,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.73,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.73,
+      "la": 4.12,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.12,
+      "la": 9.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 9.18,
+      "la": 11.01,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.01,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.55,
+      "qc_max": 2.35
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.55,
+      "qc_max": 2.18
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.26,
+      "qc_max": 2.76
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 2.73,
+      "qc_max": 6.69
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.92,
+      "qc_max": 3.16
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.82,
+      "qc_max": 6.44
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.99,
+      "qc_max": 5.22
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.11,
+      "qc_max": 5.84
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 3.13,
+      "qc_max": 8.28
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 14.39,
+      "qc_max": 23.88
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 4.56,
+      "qc_max": 22.41
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.29,
+      "qc_max": 1.8
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.67,
+      "qc_max": 1.99
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.15,
+      "qc_max": 6.34
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.66,
+      "qc_max": 1.93
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.73,
+      "qc_max": 1.84
+     }
+    ]
+   },
+   {
+    "id": "CPTA3",
+    "tip": "CPT",
+    "data": "2025-04-03",
+    "adancime": 15.18,
+    "hala": "A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826117,
+    "lon": 24.149647,
+    "stereo70": {
+     "E": 434060.19,
+     "N": 481061.26
+    },
+    "qc_med": 4.04,
+    "qc_max": 20.13,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.34,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.34,
+      "la": 2.36,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.36,
+      "la": 4.24,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 4.24,
+      "la": 8.56,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 8.56,
+      "la": 9.12,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 9.12,
+      "la": 11.77,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.77,
+      "la": 13.72,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 13.72,
+      "la": 15.18,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.95,
+      "qc_max": 3.11
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.06,
+      "qc_max": 2.83
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 2.17,
+      "qc_max": 3.5
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.81,
+      "qc_max": 3.47
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.9,
+      "qc_max": 2.46
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.71,
+      "qc_max": 8.28
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 4.71,
+      "qc_max": 16.79
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.31,
+      "qc_max": 5.66
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 3.61,
+      "qc_max": 6.74
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 10.04,
+      "qc_max": 14.45
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 4.1,
+      "qc_max": 11.58
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 5.93,
+      "qc_max": 13.72
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.33,
+      "qc_max": 8.71
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 6.51,
+      "qc_max": 19.95
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 9.22,
+      "qc_max": 20.13
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 9.83,
+      "qc_max": 10.79
+     }
+    ]
+   },
+   {
+    "id": "CPTA4",
+    "tip": "CPT",
+    "data": "2025-04-04",
+    "adancime": 15.16,
+    "hala": "A1",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825514,
+    "lon": 24.150831,
+    "stereo70": {
+     "E": 434151.4,
+     "N": 480993.3
+    },
+    "qc_med": 2.73,
+    "qc_max": 17.87,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.51,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.51,
+      "la": 4.08,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.08,
+      "la": 5.2,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 5.2,
+      "la": 6.15,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 6.15,
+      "la": 15.16,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.76,
+      "qc_max": 2.46
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.84,
+      "qc_max": 2.6
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 2.03,
+      "qc_max": 5.04
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.06,
+      "qc_max": 2.7
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.94,
+      "qc_max": 1.24
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 4.28,
+      "qc_max": 8.23
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.12,
+      "qc_max": 2.32
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 3.27,
+      "qc_max": 6.5
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 5.69,
+      "qc_max": 15.99
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 5.25,
+      "qc_max": 14.59
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 5.42,
+      "qc_max": 17.87
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.31,
+      "qc_max": 1.51
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.25,
+      "qc_max": 7.51
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.99,
+      "qc_max": 3.01
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.76,
+      "qc_max": 2.39
+     },
+     {
+      "de": 15,
+      "la": 15.160000001,
+      "qc_med": 2.15,
+      "qc_max": 2.71
+     }
+    ]
+   },
+   {
+    "id": "CPTUA5",
+    "tip": "CPTu",
+    "data": "2025-04-13",
+    "adancime": 15.28,
+    "hala": "A1/A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.825638,
+    "lon": 24.150139,
+    "stereo70": {
+     "E": 434097.79,
+     "N": 481007.72
+    },
+    "qc_med": 4.65,
+    "qc_max": 37.15,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.2,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.2,
+      "la": 2.97,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.97,
+      "la": 4.25,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 4.25,
+      "la": 8.86,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 8.86,
+      "la": 15.28,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.6,
+      "qc_max": 2.54
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.28,
+      "qc_max": 1.83
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.27,
+      "qc_max": 3.81
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 3.51,
+      "qc_max": 7.66
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.38,
+      "qc_max": 4.19
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.33,
+      "qc_max": 2.74
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.9,
+      "qc_max": 4.91
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 1.53,
+      "qc_max": 2.48
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 3.41,
+      "qc_max": 10.06
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 13.09,
+      "qc_max": 17.44
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 14.11,
+      "qc_max": 29.72
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.86,
+      "qc_max": 4.55
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 11.83,
+      "qc_max": 37.15
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 5.24,
+      "qc_max": 16.57
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 7.06,
+      "qc_max": 16.36
+     },
+     {
+      "de": 15,
+      "la": 15.280000001,
+      "qc_med": 1.8,
+      "qc_max": 2.59
+     }
+    ]
+   },
+   {
+    "id": "CPTA6",
+    "tip": "CPT",
+    "data": "2025-04-03",
+    "adancime": 15.17,
+    "hala": "A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825831,
+    "lon": 24.149569,
+    "stereo70": {
+     "E": 434053.81,
+     "N": 481029.53
+    },
+    "qc_med": 5.28,
+    "qc_max": 35.42,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.52,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.52,
+      "la": 4.11,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.11,
+      "la": 8.93,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 8.93,
+      "la": 11.77,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.77,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.69,
+      "qc_max": 2.44
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.49,
+      "qc_max": 1.86
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 2.66,
+      "qc_max": 5.49
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 2.49,
+      "qc_max": 5.86
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.04,
+      "qc_max": 3.23
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.39,
+      "qc_max": 2.79
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.38,
+      "qc_max": 2.84
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 1.61,
+      "qc_max": 3.86
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 4.7,
+      "qc_max": 10.8
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 13.4,
+      "qc_max": 16.89
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 15.14,
+      "qc_max": 23.39
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 19.99,
+      "qc_max": 35.42
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.77,
+      "qc_max": 4.32
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 8.98,
+      "qc_max": 17.44
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.9,
+      "qc_max": 7.96
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.63,
+      "qc_max": 1.77
+     }
+    ]
+   },
+   {
+    "id": "CPTA7",
+    "tip": "CPT",
+    "data": "2025-04-04",
+    "adancime": 15.16,
+    "hala": "A1",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825139,
+    "lon": 24.150681,
+    "stereo70": {
+     "E": 434139.31,
+     "N": 480951.76
+    },
+    "qc_med": 3.47,
+    "qc_max": 16.3,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.64,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.64,
+      "la": 2.28,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.28,
+      "la": 3.15,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 3.15,
+      "la": 7.73,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 7.73,
+      "la": 9.48,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 9.48,
+      "la": 10.39,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 10.39,
+      "la": 15.16,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.25,
+      "qc_max": 2.05
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.27,
+      "qc_max": 1.87
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 4.02,
+      "qc_max": 9.26
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.72,
+      "qc_max": 1.2
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 2.5,
+      "qc_max": 8.86
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.22,
+      "qc_max": 5.8
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.31,
+      "qc_max": 2.63
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 6.74,
+      "qc_max": 11.09
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 8.36,
+      "qc_max": 13.21
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 7.04,
+      "qc_max": 12.61
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 2.95,
+      "qc_max": 10.18
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 6.75,
+      "qc_max": 16.3
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.34,
+      "qc_max": 1.9
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.66,
+      "qc_max": 2.7
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.28,
+      "qc_max": 5.81
+     },
+     {
+      "de": 15,
+      "la": 15.160000001,
+      "qc_med": 11.98,
+      "qc_max": 13.64
+     }
+    ]
+   },
+   {
+    "id": "CPTA8",
+    "tip": "CPT",
+    "data": "2025-04-04",
+    "adancime": 15.16,
+    "hala": "A1/A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825278,
+    "lon": 24.150075,
+    "stereo70": {
+     "E": 434092.43,
+     "N": 480967.69
+    },
+    "qc_med": 4.2,
+    "qc_max": 31.06,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.55,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.55,
+      "la": 2.44,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.44,
+      "la": 3.97,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 3.97,
+      "la": 7.83,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 7.83,
+      "la": 8.83,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 8.83,
+      "la": 10.84,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.84,
+      "la": 15.16,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.48,
+      "qc_max": 2.23
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 0.93,
+      "qc_max": 1.24
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 4.98,
+      "qc_max": 11.64
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 8.52,
+      "qc_max": 14.52
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.06,
+      "qc_max": 2.83
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.7,
+      "qc_max": 3.82
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.4,
+      "qc_max": 2.63
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.15,
+      "qc_max": 5.26
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 4.83,
+      "qc_max": 10.04
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 11.83,
+      "qc_max": 22.55
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 13.64,
+      "qc_max": 31.06
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.25,
+      "qc_max": 2.18
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 5.84,
+      "qc_max": 20.28
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.9,
+      "qc_max": 3.56
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.71,
+      "qc_max": 2.36
+     },
+     {
+      "de": 15,
+      "la": 15.160000001,
+      "qc_med": 1.91,
+      "qc_max": 1.96
+     }
+    ]
+   },
+   {
+    "id": "CPTA9",
+    "tip": "CPT",
+    "data": "2025-04-04",
+    "adancime": 15.17,
+    "hala": "A2",
+    "hala_2025": "A",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.825386,
+    "lon": 24.149364,
+    "stereo70": {
+     "E": 434037.31,
+     "N": 480980.32
+    },
+    "qc_med": 3.69,
+    "qc_max": 24.33,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.89,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.89,
+      "la": 2.79,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.79,
+      "la": 3.85,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 3.85,
+      "la": 7.23,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 7.23,
+      "la": 8.44,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 8.44,
+      "la": 11.73,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.73,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.41,
+      "qc_max": 2.27
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.19,
+      "qc_max": 2.96
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 4.1,
+      "qc_max": 10.7
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 5.73,
+      "qc_max": 15.8
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.66,
+      "qc_max": 7.17
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.05,
+      "qc_max": 2.15
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.19,
+      "qc_max": 3.13
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 4.32,
+      "qc_max": 8.35
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 7.84,
+      "qc_max": 12.39
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 7.04,
+      "qc_max": 13.33
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 11.22,
+      "qc_max": 24.33
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.29,
+      "qc_max": 2.29
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.91,
+      "qc_max": 6.27
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.73,
+      "qc_max": 11.63
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.8,
+      "qc_max": 4.49
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.72,
+      "qc_max": 1.81
+     }
+    ]
+   },
+   {
+    "id": "CPTB11",
+    "tip": "CPT",
+    "data": "2025-04-07",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827211,
+    "lon": 24.144281,
+    "stereo70": {
+     "E": 433644.59,
+     "N": 481187.33
+    },
+    "qc_med": 2.27,
+    "qc_max": 8.07,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 7.26,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 7.26,
+      "la": 8.64,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 8.64,
+      "la": 9.18,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 9.18,
+      "la": 10.69,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 10.69,
+      "la": 12.98,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.98,
+      "la": 14.72,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 14.72,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.99,
+      "qc_max": 1.73
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.84,
+      "qc_max": 2.34
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.77,
+      "qc_max": 4.01
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.32,
+      "qc_max": 2.77
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 2.02,
+      "qc_max": 5.39
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.06,
+      "qc_max": 5.88
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 3.48,
+      "qc_max": 6.25
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.09,
+      "qc_max": 6.62
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.65,
+      "qc_max": 2.88
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 3.61,
+      "qc_max": 4.96
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 2.67,
+      "qc_max": 7.95
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.49,
+      "qc_max": 3.6
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.24,
+      "qc_max": 8.07
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.61,
+      "qc_max": 7.87
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.17,
+      "qc_max": 4.3
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.68,
+      "qc_max": 1.73
+     }
+    ]
+   },
+   {
+    "id": "CPTB12",
+    "tip": "CPT",
+    "data": "2025-04-08",
+    "adancime": 15.18,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827347,
+    "lon": 24.143572,
+    "stereo70": {
+     "E": 433589.73,
+     "N": 481203.05
+    },
+    "qc_med": 2.37,
+    "qc_max": 16.16,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.88,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 0.88,
+      "la": 8.17,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 8.17,
+      "la": 12.7,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.7,
+      "la": 15.18,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.2,
+      "qc_max": 1.97
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.7,
+      "qc_max": 2.05
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 4.97,
+      "qc_max": 16.16
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 3.22,
+      "qc_max": 11.07
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.16,
+      "qc_max": 2.08
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 3.52,
+      "qc_max": 8.82
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.29,
+      "qc_max": 6.84
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.93,
+      "qc_max": 8.18
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.22,
+      "qc_max": 1.67
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.35,
+      "qc_max": 1.6
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.61,
+      "qc_max": 2.25
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.43,
+      "qc_max": 3.17
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.83,
+      "qc_max": 2.86
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.83,
+      "qc_max": 9.19
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.14,
+      "qc_max": 3.13
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 2.59,
+      "qc_max": 5.27
+     }
+    ]
+   },
+   {
+    "id": "CPTB13",
+    "tip": "CPT",
+    "data": "2025-04-08",
+    "adancime": 15.18,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827511,
+    "lon": 24.142875,
+    "stereo70": {
+     "E": 433535.76,
+     "N": 481221.84
+    },
+    "qc_med": 2.92,
+    "qc_max": 15.84,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.0,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 1.0,
+      "la": 1.46,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.46,
+      "la": 2.41,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.41,
+      "la": 5.46,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 5.46,
+      "la": 8.39,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 8.39,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.03,
+      "qc_max": 2.28
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.93,
+      "qc_max": 2.43
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 0.8,
+      "qc_max": 1.52
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.75,
+      "qc_max": 2.79
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 5.62,
+      "qc_max": 14.93
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 8.36,
+      "qc_max": 15.84
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 5.17,
+      "qc_max": 14.5
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 7.72,
+      "qc_max": 13.71
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.58,
+      "qc_max": 3.41
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.32,
+      "qc_max": 1.7
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.49,
+      "qc_max": 1.73
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.48,
+      "qc_max": 3.31
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.34,
+      "qc_max": 1.71
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.48,
+      "qc_max": 5.63
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.42,
+      "qc_max": 7.66
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 3.71,
+      "qc_max": 5.64
+     }
+    ]
+   },
+   {
+    "id": "CPTB14",
+    "tip": "CPT",
+    "data": "2025-04-07",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826669,
+    "lon": 24.144097,
+    "stereo70": {
+     "E": 433629.7,
+     "N": 481127.3
+    },
+    "qc_med": 2.46,
+    "qc_max": 16.32,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.58,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.58,
+      "la": 5.51,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.51,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.93,
+      "qc_max": 1.66
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.27,
+      "qc_max": 3.08
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.06,
+      "qc_max": 2.72
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.24,
+      "qc_max": 2.74
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.98,
+      "qc_max": 5.88
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 3.13,
+      "qc_max": 9.54
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.9,
+      "qc_max": 5.96
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 1.49,
+      "qc_max": 3.05
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.16,
+      "qc_max": 1.38
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 4.99,
+      "qc_max": 14.26
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 6.93,
+      "qc_max": 16.32
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.51,
+      "qc_max": 1.85
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.23,
+      "qc_max": 7.86
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.04,
+      "qc_max": 8.32
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.0,
+      "qc_max": 5.23
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.74,
+      "qc_max": 1.87
+     }
+    ]
+   },
+   {
+    "id": "CPTUB15",
+    "tip": "CPTu",
+    "data": "2025-04-12",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.826842,
+    "lon": 24.143384,
+    "stereo70": {
+     "E": 433574.54,
+     "N": 481147.1
+    },
+    "qc_med": 2.18,
+    "qc_max": 9.63,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.44,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.44,
+      "la": 10.73,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 10.73,
+      "la": 13.79,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 13.79,
+      "la": 15.17,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.14,
+      "qc_max": 2.13
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.0,
+      "qc_max": 2.44
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.08,
+      "qc_max": 1.67
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.09,
+      "qc_max": 1.44
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.52,
+      "qc_max": 3.3
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.68,
+      "qc_max": 4.12
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 5.95,
+      "qc_max": 9.63
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.73,
+      "qc_max": 5.36
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.57,
+      "qc_max": 2.02
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.89,
+      "qc_max": 2.52
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.9,
+      "qc_max": 2.43
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.66,
+      "qc_max": 2.0
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.47,
+      "qc_max": 4.63
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.48,
+      "qc_max": 4.48
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.38,
+      "qc_max": 3.6
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 2.14,
+      "qc_max": 2.47
+     }
+    ]
+   },
+   {
+    "id": "CPTB16",
+    "tip": "CPT",
+    "data": "2025-04-08",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826936,
+    "lon": 24.142694,
+    "stereo70": {
+     "E": 433521.05,
+     "N": 481158.1
+    },
+    "qc_med": 2.48,
+    "qc_max": 20.82,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.35,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.35,
+      "la": 7.15,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 7.15,
+      "la": 7.94,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 7.94,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.21,
+      "qc_max": 2.67
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.07,
+      "qc_max": 2.91
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.46,
+      "qc_max": 2.15
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.3,
+      "qc_max": 2.45
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.61,
+      "qc_max": 4.09
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 3.84,
+      "qc_max": 10.32
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.05,
+      "qc_max": 7.82
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 10.25,
+      "qc_max": 20.82
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.1,
+      "qc_max": 1.82
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.55,
+      "qc_max": 1.82
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.66,
+      "qc_max": 1.98
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.61,
+      "qc_max": 3.82
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.85,
+      "qc_max": 3.07
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.6,
+      "qc_max": 5.4
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.11,
+      "qc_max": 3.43
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.67,
+      "qc_max": 1.71
+     }
+    ]
+   },
+   {
+    "id": "CPTB17",
+    "tip": "CPT",
+    "data": "2025-04-07",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826233,
+    "lon": 24.143953,
+    "stereo70": {
+     "E": 433617.96,
+     "N": 481078.96
+    },
+    "qc_med": 1.77,
+    "qc_max": 7.41,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.77,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.77,
+      "la": 5.85,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.85,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.87,
+      "qc_max": 2.36
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.66,
+      "qc_max": 3.08
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.55,
+      "qc_max": 3.12
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 2.46,
+      "qc_max": 7.41
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.74,
+      "qc_max": 4.79
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.16,
+      "qc_max": 5.57
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.92,
+      "qc_max": 7.1
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 0.98,
+      "qc_max": 1.98
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.13,
+      "qc_max": 1.5
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.45,
+      "qc_max": 1.84
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.35,
+      "qc_max": 1.69
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.47,
+      "qc_max": 1.77
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.81,
+      "qc_max": 2.16
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.03,
+      "qc_max": 2.28
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.92,
+      "qc_max": 2.25
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.81,
+      "qc_max": 1.86
+     }
+    ]
+   },
+   {
+    "id": "CPTB18",
+    "tip": "CPT",
+    "data": "2025-04-07",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826353,
+    "lon": 24.143275,
+    "stereo70": {
+     "E": 433565.45,
+     "N": 481092.8
+    },
+    "qc_med": 2.33,
+    "qc_max": 14.5,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 5.44,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 5.44,
+      "la": 6.6,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 6.6,
+      "la": 7.53,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 7.53,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.16,
+      "qc_max": 2.54
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.05,
+      "qc_max": 2.66
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.52,
+      "qc_max": 3.88
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.61,
+      "qc_max": 4.35
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.21,
+      "qc_max": 4.51
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 4.54,
+      "qc_max": 14.5
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 6.78,
+      "qc_max": 12.66
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.66,
+      "qc_max": 11.99
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.52,
+      "qc_max": 2.79
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.57,
+      "qc_max": 1.92
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.76,
+      "qc_max": 2.39
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.6,
+      "qc_max": 1.84
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.08,
+      "qc_max": 5.96
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.11,
+      "qc_max": 3.29
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.74,
+      "qc_max": 2.99
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.58,
+      "qc_max": 1.62
+     }
+    ]
+   },
+   {
+    "id": "CPTB19",
+    "tip": "CPT",
+    "data": "2025-04-07",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B1",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826425,
+    "lon": 24.1426,
+    "stereo70": {
+     "E": 433513.1,
+     "N": 481101.38
+    },
+    "qc_med": 2.28,
+    "qc_max": 17.89,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.47,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 0.47,
+      "la": 1.65,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.65,
+      "la": 6.42,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.42,
+      "la": 12.7,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.7,
+      "la": 15.17,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.52,
+      "qc_max": 2.99
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.0,
+      "qc_max": 2.57
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.56,
+      "qc_max": 2.14
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.36,
+      "qc_max": 2.5
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.09,
+      "qc_max": 2.53
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.95,
+      "qc_max": 6.46
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.93,
+      "qc_max": 8.31
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 6.88,
+      "qc_max": 17.89
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.42,
+      "qc_max": 2.38
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.92,
+      "qc_max": 2.39
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.7,
+      "qc_max": 2.07
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.42,
+      "qc_max": 1.98
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.31,
+      "qc_max": 4.11
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.18,
+      "qc_max": 3.88
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.95,
+      "qc_max": 8.42
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.95,
+      "qc_max": 2.05
+     }
+    ]
+   },
+   {
+    "id": "CPTB21",
+    "tip": "CPT",
+    "data": "2025-04-13",
+    "adancime": 15.18,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.827709,
+    "lon": 24.146316,
+    "stereo70": {
+     "E": 433803.28,
+     "N": 481241.0
+    },
+    "qc_med": 5.19,
+    "qc_max": 20.48,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.46,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.46,
+      "la": 5.52,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.52,
+      "la": 5.93,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 5.93,
+      "la": 10.21,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.21,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.32,
+      "qc_max": 2.3
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.76,
+      "qc_max": 2.39
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.25,
+      "qc_max": 3.69
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.92,
+      "qc_max": 1.78
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.98,
+      "qc_max": 1.18
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 3.73,
+      "qc_max": 9.57
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 13.15,
+      "qc_max": 16.9
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 9.72,
+      "qc_max": 18.32
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 13.17,
+      "qc_max": 17.57
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 13.1,
+      "qc_max": 20.48
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.79,
+      "qc_max": 4.14
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 5.42,
+      "qc_max": 11.51
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 4.59,
+      "qc_max": 13.54
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.41,
+      "qc_max": 9.84
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.97,
+      "qc_max": 8.42
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.48,
+      "qc_max": 1.61
+     }
+    ]
+   },
+   {
+    "id": "CPTB22",
+    "tip": "CPT",
+    "data": "2025-04-13",
+    "adancime": 15.17,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.828254,
+    "lon": 24.146379,
+    "stereo70": {
+     "E": 433808.88,
+     "N": 481301.46
+    },
+    "qc_med": 5.32,
+    "qc_max": 27.84,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.03,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.03,
+      "la": 4.46,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.46,
+      "la": 6.2,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 6.2,
+      "la": 10.62,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.62,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.16,
+      "qc_max": 1.74
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.16,
+      "qc_max": 1.61
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 0.81,
+      "qc_max": 1.07
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.56,
+      "qc_max": 2.92
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.11,
+      "qc_max": 1.37
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 5.02,
+      "qc_max": 8.29
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 12.43,
+      "qc_max": 15.47
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 13.09,
+      "qc_max": 23.13
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 12.67,
+      "qc_max": 19.99
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 18.71,
+      "qc_max": 27.84
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.3,
+      "qc_max": 2.22
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.76,
+      "qc_max": 5.84
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.25,
+      "qc_max": 12.91
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.11,
+      "qc_max": 12.17
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.07,
+      "qc_max": 7.23
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.73,
+      "qc_max": 1.94
+     }
+    ]
+   },
+   {
+    "id": "CPTB23",
+    "tip": "CPT",
+    "data": "2025-04-13",
+    "adancime": 10.13,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.82876,
+    "lon": 24.146445,
+    "stereo70": {
+     "E": 433814.6,
+     "N": 481357.63
+    },
+    "qc_med": 5.75,
+    "qc_max": 29.98,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.69,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.69,
+      "la": 7.33,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 7.33,
+      "la": 8.21,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 8.21,
+      "la": 10.13,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.05,
+      "qc_max": 1.45
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.5,
+      "qc_max": 2.81
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.18,
+      "qc_max": 1.69
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.22,
+      "qc_max": 2.07
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.14,
+      "qc_max": 1.9
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 4.62,
+      "qc_max": 9.25
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.21,
+      "qc_max": 5.63
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 5.48,
+      "qc_max": 10.79
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 12.31,
+      "qc_max": 23.89
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 24.06,
+      "qc_max": 29.98
+     },
+     {
+      "de": 10,
+      "la": 10.130000001,
+      "qc_med": 22.99,
+      "qc_max": 25.08
+     }
+    ]
+   },
+   {
+    "id": "CPTB24",
+    "tip": "CPT",
+    "data": "2025-04-13",
+    "adancime": 15.18,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.827771,
+    "lon": 24.145348,
+    "stereo70": {
+     "E": 433728.2,
+     "N": 481248.7
+    },
+    "qc_med": 3.75,
+    "qc_max": 20.14,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.98,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 0.98,
+      "la": 1.6,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.6,
+      "la": 4.27,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.27,
+      "la": 5.98,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 5.98,
+      "la": 8.64,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 8.64,
+      "la": 13.56,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 13.56,
+      "la": 14.05,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 14.05,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.86,
+      "qc_max": 1.7
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 3.03,
+      "qc_max": 6.73
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.17,
+      "qc_max": 1.98
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.09,
+      "qc_max": 2.59
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.81,
+      "qc_max": 1.15
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.05,
+      "qc_max": 5.55
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 12.64,
+      "qc_max": 19.58
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 11.5,
+      "qc_max": 20.14
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 5.08,
+      "qc_max": 10.46
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.8,
+      "qc_max": 4.57
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 5.32,
+      "qc_max": 9.91
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.55,
+      "qc_max": 5.34
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.41,
+      "qc_max": 2.7
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.63,
+      "qc_max": 9.39
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.49,
+      "qc_max": 6.62
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.52,
+      "qc_max": 1.71
+     }
+    ]
+   },
+   {
+    "id": "CPTUB25",
+    "tip": "CPTu",
+    "data": "2025-04-12",
+    "adancime": 15.19,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.8283,
+    "lon": 24.1454,
+    "stereo70": {
+     "E": 433732.83,
+     "N": 481307.36
+    },
+    "qc_med": 3.87,
+    "qc_max": 22.57,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.39,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.39,
+      "la": 1.91,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 1.91,
+      "la": 5.28,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.28,
+      "la": 9.76,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 9.76,
+      "la": 12.4,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.4,
+      "la": 15.19,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.72,
+      "qc_max": 0.93
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 0.53,
+      "qc_max": 1.29
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.13,
+      "qc_max": 1.5
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.16,
+      "qc_max": 1.56
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 2.35,
+      "qc_max": 6.08
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 5.75,
+      "qc_max": 10.23
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 10.63,
+      "qc_max": 13.05
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 13.26,
+      "qc_max": 22.57
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 6.08,
+      "qc_max": 10.79
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.57,
+      "qc_max": 3.55
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 2.1,
+      "qc_max": 4.59
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 3.2,
+      "qc_max": 7.29
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.37,
+      "qc_max": 7.15
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.75,
+      "qc_max": 8.66
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.63,
+      "qc_max": 5.72
+     },
+     {
+      "de": 15,
+      "la": 15.190000001,
+      "qc_med": 1.76,
+      "qc_max": 2.15
+     }
+    ]
+   },
+   {
+    "id": "CPTB26",
+    "tip": "CPT",
+    "data": "2025-04-09",
+    "adancime": 15.18,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.8288,
+    "lon": 24.145433,
+    "stereo70": {
+     "E": 433736.03,
+     "N": 481362.93
+    },
+    "qc_med": 3.22,
+    "qc_max": 18.2,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.27,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.27,
+      "la": 4.97,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.97,
+      "la": 6.55,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 6.55,
+      "la": 9.82,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 9.82,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.35,
+      "qc_max": 2.43
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.75,
+      "qc_max": 2.69
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.12,
+      "qc_max": 1.81
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.91,
+      "qc_max": 1.54
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.88,
+      "qc_max": 1.22
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.25,
+      "qc_max": 6.96
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 7.7,
+      "qc_max": 18.2
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 7.63,
+      "qc_max": 9.31
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 7.77,
+      "qc_max": 11.83
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 2.66,
+      "qc_max": 8.22
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.88,
+      "qc_max": 4.08
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 3.0,
+      "qc_max": 6.29
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.4,
+      "qc_max": 1.75
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.78,
+      "qc_max": 9.23
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.77,
+      "qc_max": 7.09
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 4.62,
+      "qc_max": 6.31
+     }
+    ]
+   },
+   {
+    "id": "CPTB27",
+    "tip": "CPT",
+    "data": "2025-04-13",
+    "adancime": 15.18,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.827827,
+    "lon": 24.144453,
+    "stereo70": {
+     "E": 433658.75,
+     "N": 481255.58
+    },
+    "qc_med": 2.64,
+    "qc_max": 18.0,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.36,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.36,
+      "la": 2.32,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.32,
+      "la": 3.86,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 3.86,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.36,
+      "qc_max": 2.71
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.01,
+      "qc_max": 2.93
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 4.36,
+      "qc_max": 8.31
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.34,
+      "qc_max": 2.77
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.88,
+      "qc_max": 1.35
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.2,
+      "qc_max": 4.14
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 6.34,
+      "qc_max": 18.0
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 4.66,
+      "qc_max": 10.9
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.14,
+      "qc_max": 1.94
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.19,
+      "qc_max": 3.79
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 3.73,
+      "qc_max": 8.82
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.63,
+      "qc_max": 3.05
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.84,
+      "qc_max": 4.66
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.69,
+      "qc_max": 7.58
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 3.23,
+      "qc_max": 9.87
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.86,
+      "qc_max": 2.41
+     }
+    ]
+   },
+   {
+    "id": "CPTUB28",
+    "tip": "CPTu",
+    "data": "2025-04-12",
+    "adancime": 15.19,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.828352,
+    "lon": 24.144523,
+    "stereo70": {
+     "E": 433664.78,
+     "N": 481313.91
+    },
+    "qc_med": 2.56,
+    "qc_max": 19.13,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.42,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.42,
+      "la": 7.86,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 7.86,
+      "la": 8.55,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 8.55,
+      "la": 10.07,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 10.07,
+      "la": 12.08,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.08,
+      "la": 15.19,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.04,
+      "qc_max": 2.01
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.66,
+      "qc_max": 2.53
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 2.75,
+      "qc_max": 10.88
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 3.02,
+      "qc_max": 10.91
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.04,
+      "qc_max": 1.61
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.64,
+      "qc_max": 4.04
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 3.14,
+      "qc_max": 8.36
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 7.24,
+      "qc_max": 19.13
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.47,
+      "qc_max": 7.18
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.45,
+      "qc_max": 2.53
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.79,
+      "qc_max": 4.83
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.82,
+      "qc_max": 3.76
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.8,
+      "qc_max": 3.71
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.22,
+      "qc_max": 10.27
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 3.35,
+      "qc_max": 7.84
+     },
+     {
+      "de": 15,
+      "la": 15.190000001,
+      "qc_med": 1.48,
+      "qc_max": 1.76
+     }
+    ]
+   },
+   {
+    "id": "CPTB210",
+    "tip": "CPT",
+    "data": "2025-04-08",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827864,
+    "lon": 24.143572,
+    "stereo70": {
+     "E": 433590.34,
+     "N": 481260.46
+    },
+    "qc_med": 3.15,
+    "qc_max": 21.49,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.26,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.26,
+      "la": 5.34,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.34,
+      "la": 8.79,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 8.79,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.05,
+      "qc_max": 1.79
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.64,
+      "qc_max": 2.06
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.68,
+      "qc_max": 8.82
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 3.64,
+      "qc_max": 11.09
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.05,
+      "qc_max": 2.72
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 11.8,
+      "qc_max": 19.43
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 10.56,
+      "qc_max": 21.49
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 3.61,
+      "qc_max": 10.23
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.58,
+      "qc_max": 2.97
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.25,
+      "qc_max": 1.53
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.37,
+      "qc_max": 1.63
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.3,
+      "qc_max": 5.58
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.23,
+      "qc_max": 2.44
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.7,
+      "qc_max": 5.93
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.0,
+      "qc_max": 3.17
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.47,
+      "qc_max": 1.52
+     }
+    ]
+   },
+   {
+    "id": "CPTB211",
+    "tip": "CPTu",
+    "data": "2025-04-12",
+    "adancime": 15.19,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.828411,
+    "lon": 24.143634,
+    "stereo70": {
+     "E": 433595.82,
+     "N": 481321.19
+    },
+    "qc_med": 2.5,
+    "qc_max": 12.43,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.44,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.44,
+      "la": 5.19,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.19,
+      "la": 7.47,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 7.47,
+      "la": 9.48,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 9.48,
+      "la": 15.19,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.39,
+      "qc_max": 2.97
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.74,
+      "qc_max": 2.58
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.18,
+      "qc_max": 2.45
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.61,
+      "qc_max": 3.41
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.54,
+      "qc_max": 2.78
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 8.75,
+      "qc_max": 12.43
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 3.88,
+      "qc_max": 9.54
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.68,
+      "qc_max": 8.74
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.24,
+      "qc_max": 3.32
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.32,
+      "qc_max": 1.95
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.27,
+      "qc_max": 1.52
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 4.73,
+      "qc_max": 8.96
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.45,
+      "qc_max": 3.36
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.67,
+      "qc_max": 2.59
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.99,
+      "qc_max": 2.89
+     },
+     {
+      "de": 15,
+      "la": 15.190000001,
+      "qc_med": 1.87,
+      "qc_max": 2.17
+     }
+    ]
+   },
+   {
+    "id": "CPTB212",
+    "tip": "CPT",
+    "data": "2025-04-09",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.828972,
+    "lon": 24.143714,
+    "stereo70": {
+     "E": 433602.67,
+     "N": 481383.49
+    },
+    "qc_med": 3.03,
+    "qc_max": 21.6,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.52,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.52,
+      "la": 5.76,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.76,
+      "la": 7.92,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 7.92,
+      "la": 9.44,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 9.44,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.23,
+      "qc_max": 1.96
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.55,
+      "qc_max": 2.65
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.18,
+      "qc_max": 1.76
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.68,
+      "qc_max": 3.43
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 2.65,
+      "qc_max": 6.18
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.64,
+      "qc_max": 6.7
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 3.97,
+      "qc_max": 7.19
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 5.31,
+      "qc_max": 15.87
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 8.93,
+      "qc_max": 21.6
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 2.6,
+      "qc_max": 5.22
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.28,
+      "qc_max": 2.87
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.53,
+      "qc_max": 7.57
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.14,
+      "qc_max": 2.14
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 6.46,
+      "qc_max": 12.8
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.39,
+      "qc_max": 5.76
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 2.05,
+      "qc_max": 2.85
+     }
+    ]
+   },
+   {
+    "id": "CPTB213",
+    "tip": "CPT",
+    "data": "2025-04-08",
+    "adancime": 15.18,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827989,
+    "lon": 24.142692,
+    "stereo70": {
+     "E": 433522.09,
+     "N": 481275.08
+    },
+    "qc_med": 2.5,
+    "qc_max": 20.71,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.24,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.24,
+      "la": 6.41,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.41,
+      "la": 7.51,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 7.51,
+      "la": 9.14,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 9.14,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.71,
+      "qc_max": 3.21
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.77,
+      "qc_max": 2.77
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.31,
+      "qc_max": 1.67
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.49,
+      "qc_max": 2.84
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 4.03,
+      "qc_max": 6.75
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.11,
+      "qc_max": 5.69
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.27,
+      "qc_max": 6.6
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 10.03,
+      "qc_max": 20.71
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.96,
+      "qc_max": 16.32
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.45,
+      "qc_max": 3.36
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.1,
+      "qc_max": 1.42
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.52,
+      "qc_max": 3.48
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.59,
+      "qc_max": 3.09
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.87,
+      "qc_max": 4.31
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.34,
+      "qc_max": 3.75
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.77,
+      "qc_max": 2.79
+     }
+    ]
+   },
+   {
+    "id": "CPTB214",
+    "tip": "CPT",
+    "data": "2025-04-09",
+    "adancime": 15.17,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.828447,
+    "lon": 24.142689,
+    "stereo70": {
+     "E": 433522.42,
+     "N": 481326.01
+    },
+    "qc_med": 2.5,
+    "qc_max": 19.35,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.42,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.42,
+      "la": 6.63,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.63,
+      "la": 7.12,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 7.12,
+      "la": 10.02,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.02,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.41,
+      "qc_max": 2.67
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.22,
+      "qc_max": 2.73
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.52,
+      "qc_max": 2.08
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.95,
+      "qc_max": 4.33
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 4.61,
+      "qc_max": 11.95
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.36,
+      "qc_max": 5.07
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.19,
+      "qc_max": 3.12
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 10.05,
+      "qc_max": 19.35
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.52,
+      "qc_max": 4.76
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.78,
+      "qc_max": 3.46
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.42,
+      "qc_max": 2.73
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.39,
+      "qc_max": 2.58
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.5,
+      "qc_max": 2.67
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.65,
+      "qc_max": 2.4
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.0,
+      "qc_max": 3.45
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.68,
+      "qc_max": 1.98
+     }
+    ]
+   },
+   {
+    "id": "CPTB215",
+    "tip": "CPT",
+    "data": "2025-04-09",
+    "adancime": 15.18,
+    "hala": "D",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.829,
+    "lon": 24.142777,
+    "stereo70": {
+     "E": 433529.9,
+     "N": 481387.36
+    },
+    "qc_med": 2.59,
+    "qc_max": 16.7,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.33,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.33,
+      "la": 4.43,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.43,
+      "la": 6.68,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 6.68,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.51,
+      "qc_max": 2.96
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.3,
+      "qc_max": 3.08
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.15,
+      "qc_max": 1.7
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.48,
+      "qc_max": 4.12
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 9.14,
+      "qc_max": 16.7
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 5.52,
+      "qc_max": 15.04
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 1.82,
+      "qc_max": 4.39
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.26,
+      "qc_max": 5.5
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.38,
+      "qc_max": 3.65
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 2.16,
+      "qc_max": 4.25
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 1.09,
+      "qc_max": 2.14
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.91,
+      "qc_max": 8.74
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.57,
+      "qc_max": 5.69
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.57,
+      "qc_max": 3.71
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.09,
+      "qc_max": 5.72
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.71,
+      "qc_max": 1.99
+     }
+    ]
+   },
+   {
+    "id": "CPTBN29",
+    "tip": "CPT",
+    "data": "2025-04-09",
+    "adancime": 15.17,
+    "hala": "E",
+    "hala_2025": "B2",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.828856,
+    "lon": 24.144614,
+    "stereo70": {
+     "E": 433672.44,
+     "N": 481369.78
+    },
+    "qc_med": 3.32,
+    "qc_max": 26.98,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.16,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.16,
+      "la": 6.35,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.35,
+      "la": 8.88,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 8.88,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.25,
+      "qc_max": 2.59
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.58,
+      "qc_max": 2.55
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.36,
+      "qc_max": 2.43
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.61,
+      "qc_max": 2.8
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.18,
+      "qc_max": 1.82
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.3,
+      "qc_max": 2.63
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 9.27,
+      "qc_max": 17.83
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 16.35,
+      "qc_max": 26.98
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.62,
+      "qc_max": 7.99
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 1.43,
+      "qc_max": 2.05
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 2.66,
+      "qc_max": 8.49
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.77,
+      "qc_max": 3.45
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.23,
+      "qc_max": 1.57
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 3.82,
+      "qc_max": 9.34
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.37,
+      "qc_max": 6.67
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 2.29,
+      "qc_max": 2.91
+     }
+    ]
+   },
+   {
+    "id": "CPTC1",
+    "tip": "CPT",
+    "data": "2025-04-04",
+    "adancime": 15.17,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827028,
+    "lon": 24.146617,
+    "stereo70": {
+     "E": 433825.85,
+     "N": 481165.02
+    },
+    "qc_med": 3.64,
+    "qc_max": 20.18,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.51,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.51,
+      "la": 6.44,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.44,
+      "la": 10.44,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.44,
+      "la": 12.1,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.1,
+      "la": 13.53,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 13.53,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.35,
+      "qc_max": 2.41
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.11,
+      "qc_max": 1.71
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.04,
+      "qc_max": 1.88
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.21,
+      "qc_max": 3.95
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.19,
+      "qc_max": 3.73
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 4.98,
+      "qc_max": 6.44
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 7.47,
+      "qc_max": 14.02
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 4.94,
+      "qc_max": 12.21
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 14.94,
+      "qc_max": 20.18
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 5.12,
+      "qc_max": 11.32
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 2.16,
+      "qc_max": 4.39
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.96,
+      "qc_max": 2.94
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.52,
+      "qc_max": 5.4
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.05,
+      "qc_max": 3.39
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.67,
+      "qc_max": 2.8
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.76,
+      "qc_max": 1.86
+     }
+    ]
+   },
+   {
+    "id": "CPTC2",
+    "tip": "CPT",
+    "data": "2025-04-05",
+    "adancime": 15.18,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827225,
+    "lon": 24.145892,
+    "stereo70": {
+     "E": 433769.76,
+     "N": 481187.53
+    },
+    "qc_med": 5.51,
+    "qc_max": 27.86,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.42,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.42,
+      "la": 2.75,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 2.75,
+      "la": 5.63,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 5.63,
+      "la": 8.84,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 8.84,
+      "la": 10.2,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 10.2,
+      "la": 11.35,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.35,
+      "la": 15.18,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.13,
+      "qc_max": 1.57
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.74,
+      "qc_max": 3.05
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.39,
+      "qc_max": 3.62
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.87,
+      "qc_max": 1.26
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 0.97,
+      "qc_max": 1.81
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 7.24,
+      "qc_max": 13.31
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 12.42,
+      "qc_max": 27.62
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 15.2,
+      "qc_max": 27.86
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 10.62,
+      "qc_max": 15.52
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 6.91,
+      "qc_max": 13.06
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 12.18,
+      "qc_max": 18.51
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.95,
+      "qc_max": 5.12
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.71,
+      "qc_max": 8.17
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 4.94,
+      "qc_max": 10.48
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.8,
+      "qc_max": 3.61
+     },
+     {
+      "de": 15,
+      "la": 15.180000001,
+      "qc_med": 1.99,
+      "qc_max": 3.16
+     }
+    ]
+   },
+   {
+    "id": "CPTC3",
+    "tip": "CPT",
+    "data": "2025-04-05",
+    "adancime": 15.17,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.827322,
+    "lon": 24.145197,
+    "stereo70": {
+     "E": 433715.93,
+     "N": 481198.92
+    },
+    "qc_med": 3.74,
+    "qc_max": 17.71,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.54,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.54,
+      "la": 6.04,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.04,
+      "la": 7.72,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 7.72,
+      "la": 10.0,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 10.0,
+      "la": 11.35,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.35,
+      "la": 12.66,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.66,
+      "la": 14.52,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 14.52,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.06,
+      "qc_max": 2.08
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.15,
+      "qc_max": 2.83
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 3.23,
+      "qc_max": 7.46
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.96,
+      "qc_max": 1.7
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.5,
+      "qc_max": 5.58
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.08,
+      "qc_max": 7.75
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 11.06,
+      "qc_max": 16.08
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 9.26,
+      "qc_max": 17.71
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.11,
+      "qc_max": 3.29
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 5.77,
+      "qc_max": 11.56
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 8.33,
+      "qc_max": 11.22
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.92,
+      "qc_max": 4.96
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.61,
+      "qc_max": 3.73
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.95,
+      "qc_max": 4.31
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 2.26,
+      "qc_max": 7.14
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.6,
+      "qc_max": 1.7
+     }
+    ]
+   },
+   {
+    "id": "CPTUC5",
+    "tip": "CPTu",
+    "data": "2025-04-12",
+    "adancime": 15.19,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie proiectata (KMZ)",
+    "lat": 45.826645,
+    "lon": 24.145701,
+    "stereo70": {
+     "E": 433754.25,
+     "N": 481123.19
+    },
+    "qc_med": 4.14,
+    "qc_max": 24.76,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.22,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.22,
+      "la": 5.74,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 5.74,
+      "la": 11.82,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.82,
+      "la": 15.19,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.34,
+      "qc_max": 2.06
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.51,
+      "qc_max": 2.21
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.11,
+      "qc_max": 2.11
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.13,
+      "qc_max": 2.56
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.82,
+      "qc_max": 3.81
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 4.33,
+      "qc_max": 17.14
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 16.81,
+      "qc_max": 24.76
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 5.98,
+      "qc_max": 24.51
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 3.92,
+      "qc_max": 5.6
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 5.92,
+      "qc_max": 10.86
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 8.32,
+      "qc_max": 15.32
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.83,
+      "qc_max": 2.64
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.71,
+      "qc_max": 6.11
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.65,
+      "qc_max": 5.25
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.96,
+      "qc_max": 2.29
+     },
+     {
+      "de": 15,
+      "la": 15.190000001,
+      "qc_med": 2.02,
+      "qc_max": 2.08
+     }
+    ]
+   },
+   {
+    "id": "CPTC6",
+    "tip": "CPT",
+    "data": "2025-04-05",
+    "adancime": 15.17,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826767,
+    "lon": 24.144992,
+    "stereo70": {
+     "E": 433699.3,
+     "N": 481137.35
+    },
+    "qc_med": 2.25,
+    "qc_max": 17.09,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.29,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.29,
+      "la": 4.58,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 4.58,
+      "la": 7.07,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 7.07,
+      "la": 9.26,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 9.26,
+      "la": 11.11,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 11.11,
+      "la": 12.51,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 12.51,
+      "la": 13.73,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 13.73,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 0.8,
+      "qc_max": 1.31
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 1.39,
+      "qc_max": 1.96
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.23,
+      "qc_max": 2.23
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.28,
+      "qc_max": 3.51
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 2.55,
+      "qc_max": 6.29
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 1.73,
+      "qc_max": 3.28
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 2.95,
+      "qc_max": 5.04
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 1.29,
+      "qc_max": 3.04
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 1.16,
+      "qc_max": 1.39
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 3.63,
+      "qc_max": 6.97
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 6.83,
+      "qc_max": 17.09
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 1.59,
+      "qc_max": 2.11
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 3.03,
+      "qc_max": 4.86
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 2.44,
+      "qc_max": 3.95
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.74,
+      "qc_max": 2.56
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.89,
+      "qc_max": 2.06
+     }
+    ]
+   },
+   {
+    "id": "CPTC8",
+    "tip": "CPT",
+    "data": "2025-04-05",
+    "adancime": 15.17,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826086,
+    "lon": 24.145425,
+    "stereo70": {
+     "E": 433732.16,
+     "N": 481061.4
+    },
+    "qc_med": 3.95,
+    "qc_max": 23.53,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 0.58,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 0.58,
+      "la": 0.99,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 0.99,
+      "la": 6.27,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 6.27,
+      "la": 7.45,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 7.45,
+      "la": 9.74,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 9.74,
+      "la": 10.35,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 10.35,
+      "la": 11.86,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 11.86,
+      "la": 12.56,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 12.56,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.47,
+      "qc_max": 2.08
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.16,
+      "qc_max": 2.74
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 0.92,
+      "qc_max": 1.68
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 0.87,
+      "qc_max": 1.4
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.48,
+      "qc_max": 6.22
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 3.16,
+      "qc_max": 11.46
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 13.72,
+      "qc_max": 21.82
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 7.35,
+      "qc_max": 19.23
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.57,
+      "qc_max": 5.82
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 9.3,
+      "qc_max": 22.39
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 7.98,
+      "qc_max": 23.53
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 2.17,
+      "qc_max": 2.89
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 2.88,
+      "qc_max": 4.82
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.65,
+      "qc_max": 1.95
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.77,
+      "qc_max": 2.01
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 1.87,
+      "qc_max": 2.16
+     }
+    ]
+   },
+   {
+    "id": "CPTC9",
+    "tip": "CPT",
+    "data": "2025-04-05",
+    "adancime": 15.17,
+    "hala": "C",
+    "hala_2025": "C",
+    "coord_sursa": "pozitie executata (KMZ)",
+    "lat": 45.826175,
+    "lon": 24.144742,
+    "stereo70": {
+     "E": 433679.18,
+     "N": 481071.82
+    },
+    "qc_med": 3.75,
+    "qc_max": 35.22,
+    "straturi_sbt": [
+     {
+      "de": 0.0,
+      "la": 1.31,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 1.31,
+      "la": 6.87,
+      "zona": 4,
+      "sbt": "praf argilos – argilă prăfoasă",
+      "culoare": "#C9A46B"
+     },
+     {
+      "de": 6.87,
+      "la": 7.29,
+      "zona": 5,
+      "sbt": "nisip prăfos – praf nisipos",
+      "culoare": "#E4C27C"
+     },
+     {
+      "de": 7.29,
+      "la": 10.01,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     },
+     {
+      "de": 10.01,
+      "la": 11.78,
+      "zona": 6,
+      "sbt": "nisip – nisip prăfos",
+      "culoare": "#F3D36B"
+     },
+     {
+      "de": 11.78,
+      "la": 15.17,
+      "zona": 3,
+      "sbt": "argilă – argilă prăfoasă",
+      "culoare": "#A8814D"
+     }
+    ],
+    "benzi_1m": [
+     {
+      "de": 0,
+      "la": 1.0,
+      "qc_med": 1.13,
+      "qc_max": 2.35
+     },
+     {
+      "de": 1,
+      "la": 2.0,
+      "qc_med": 2.01,
+      "qc_max": 2.82
+     },
+     {
+      "de": 2,
+      "la": 3.0,
+      "qc_med": 1.13,
+      "qc_max": 2.73
+     },
+     {
+      "de": 3,
+      "la": 4.0,
+      "qc_med": 1.02,
+      "qc_max": 3.27
+     },
+     {
+      "de": 4,
+      "la": 5.0,
+      "qc_med": 1.94,
+      "qc_max": 4.45
+     },
+     {
+      "de": 5,
+      "la": 6.0,
+      "qc_med": 2.98,
+      "qc_max": 6.39
+     },
+     {
+      "de": 6,
+      "la": 7.0,
+      "qc_med": 7.17,
+      "qc_max": 13.6
+     },
+     {
+      "de": 7,
+      "la": 8.0,
+      "qc_med": 2.23,
+      "qc_max": 5.89
+     },
+     {
+      "de": 8,
+      "la": 9.0,
+      "qc_med": 2.0,
+      "qc_max": 6.1
+     },
+     {
+      "de": 9,
+      "la": 10.0,
+      "qc_med": 3.15,
+      "qc_max": 6.07
+     },
+     {
+      "de": 10,
+      "la": 11.0,
+      "qc_med": 14.02,
+      "qc_max": 21.62
+     },
+     {
+      "de": 11,
+      "la": 12.0,
+      "qc_med": 12.12,
+      "qc_max": 35.22
+     },
+     {
+      "de": 12,
+      "la": 13.0,
+      "qc_med": 1.66,
+      "qc_max": 2.25
+     },
+     {
+      "de": 13,
+      "la": 14.0,
+      "qc_med": 1.92,
+      "qc_max": 2.26
+     },
+     {
+      "de": 14,
+      "la": 15.0,
+      "qc_med": 1.9,
+      "qc_max": 2.72
+     },
+     {
+      "de": 15,
+      "la": 15.170000001,
+      "qc_med": 2.01,
+      "qc_max": 2.12
+     }
+    ]
+   }
+  ]
+ },
+ "meteo": {
+  "2025-04-01": {
+   "weather_code": 51,
+   "temperature_2m_max": 16,
+   "temperature_2m_min": 7.2,
+   "temperature_2m_mean": 10.9,
+   "precipitation_sum": 0.3,
+   "wind_speed_10m_max": 13.3,
+   "wind_gusts_10m_max": 30.2,
+   "wind_direction_10m_dominant": 90,
+   "relative_humidity_2m_mean": 77,
+   "sunshine_duration": 32187.68
+  },
+  "2025-04-02": {
+   "weather_code": 51,
+   "temperature_2m_max": 14.2,
+   "temperature_2m_min": 6,
+   "temperature_2m_mean": 10.1,
+   "precipitation_sum": 0.3,
+   "wind_speed_10m_max": 9.1,
+   "wind_gusts_10m_max": 20.9,
+   "wind_direction_10m_dominant": 312,
+   "relative_humidity_2m_mean": 71,
+   "sunshine_duration": 34904.08
+  },
+  "2025-04-03": {
+   "weather_code": 51,
+   "temperature_2m_max": 12,
+   "temperature_2m_min": 6.4,
+   "temperature_2m_mean": 9,
+   "precipitation_sum": 1.4,
+   "wind_speed_10m_max": 9.3,
+   "wind_gusts_10m_max": 19.1,
+   "wind_direction_10m_dominant": 278,
+   "relative_humidity_2m_mean": 79,
+   "sunshine_duration": 4904.51
+  },
+  "2025-04-04": {
+   "weather_code": 51,
+   "temperature_2m_max": 14.5,
+   "temperature_2m_min": 4.4,
+   "temperature_2m_mean": 9.2,
+   "precipitation_sum": 0.5,
+   "wind_speed_10m_max": 6.3,
+   "wind_gusts_10m_max": 15.5,
+   "wind_direction_10m_dominant": 170,
+   "relative_humidity_2m_mean": 78,
+   "sunshine_duration": 40701.75
+  },
+  "2025-04-05": {
+   "weather_code": 63,
+   "temperature_2m_max": 16.5,
+   "temperature_2m_min": 4.2,
+   "temperature_2m_mean": 10.5,
+   "precipitation_sum": 7,
+   "wind_speed_10m_max": 21.3,
+   "wind_gusts_10m_max": 45.7,
+   "wind_direction_10m_dominant": 285,
+   "relative_humidity_2m_mean": 73,
+   "sunshine_duration": 44868.9
+  },
+  "2025-04-06": {
+   "weather_code": 73,
+   "temperature_2m_max": 7.8,
+   "temperature_2m_min": -0.5,
+   "temperature_2m_mean": 2.9,
+   "precipitation_sum": 8.6,
+   "wind_speed_10m_max": 26.7,
+   "wind_gusts_10m_max": 56.2,
+   "wind_direction_10m_dominant": 311,
+   "relative_humidity_2m_mean": 68,
+   "sunshine_duration": 29660.44
+  },
+  "2025-04-07": {
+   "weather_code": 71,
+   "temperature_2m_max": 3.3,
+   "temperature_2m_min": -3.5,
+   "temperature_2m_mean": -0.2,
+   "precipitation_sum": 0.2,
+   "wind_speed_10m_max": 12.6,
+   "wind_gusts_10m_max": 27.7,
+   "wind_direction_10m_dominant": 304,
+   "relative_humidity_2m_mean": 57,
+   "sunshine_duration": 22153.19
+  },
+  "2025-04-08": {
+   "weather_code": 3,
+   "temperature_2m_max": 6.4,
+   "temperature_2m_min": -3.8,
+   "temperature_2m_mean": 1.4,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 13,
+   "wind_gusts_10m_max": 30.2,
+   "wind_direction_10m_dominant": 285,
+   "relative_humidity_2m_mean": 58,
+   "sunshine_duration": 39600
+  },
+  "2025-04-09": {
+   "weather_code": 71,
+   "temperature_2m_max": 7.9,
+   "temperature_2m_min": -1.6,
+   "temperature_2m_mean": 2.9,
+   "precipitation_sum": 0.6,
+   "wind_speed_10m_max": 15.2,
+   "wind_gusts_10m_max": 34.2,
+   "wind_direction_10m_dominant": 293,
+   "relative_humidity_2m_mean": 65,
+   "sunshine_duration": 24977.26
+  },
+  "2025-04-10": {
+   "weather_code": 71,
+   "temperature_2m_max": 6.7,
+   "temperature_2m_min": -1.5,
+   "temperature_2m_mean": 2.8,
+   "precipitation_sum": 3.1,
+   "wind_speed_10m_max": 31,
+   "wind_gusts_10m_max": 64.8,
+   "wind_direction_10m_dominant": 310,
+   "relative_humidity_2m_mean": 59,
+   "sunshine_duration": 16714.59
+  },
+  "2025-04-11": {
+   "weather_code": 71,
+   "temperature_2m_max": 7.4,
+   "temperature_2m_min": -0.8,
+   "temperature_2m_mean": 3.1,
+   "precipitation_sum": 1.2,
+   "wind_speed_10m_max": 20.7,
+   "wind_gusts_10m_max": 43.9,
+   "wind_direction_10m_dominant": 299,
+   "relative_humidity_2m_mean": 58,
+   "sunshine_duration": 0
+  },
+  "2025-04-12": {
+   "weather_code": 53,
+   "temperature_2m_max": 10.5,
+   "temperature_2m_min": 3.2,
+   "temperature_2m_mean": 6.5,
+   "precipitation_sum": 3.3,
+   "wind_speed_10m_max": 9.1,
+   "wind_gusts_10m_max": 23,
+   "wind_direction_10m_dominant": 315,
+   "relative_humidity_2m_mean": 81,
+   "sunshine_duration": 17625.36
+  },
+  "2025-04-13": {
+   "weather_code": 3,
+   "temperature_2m_max": 17.3,
+   "temperature_2m_min": 1.6,
+   "temperature_2m_mean": 9.3,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 8.2,
+   "wind_gusts_10m_max": 22.3,
+   "wind_direction_10m_dominant": 121,
+   "relative_humidity_2m_mean": 73,
+   "sunshine_duration": 46800
+  },
+  "2025-04-14": {
+   "weather_code": 51,
+   "temperature_2m_max": 13.7,
+   "temperature_2m_min": 5.3,
+   "temperature_2m_mean": 10.3,
+   "precipitation_sum": 1.1,
+   "wind_speed_10m_max": 16,
+   "wind_gusts_10m_max": 31.3,
+   "wind_direction_10m_dominant": 135,
+   "relative_humidity_2m_mean": 71,
+   "sunshine_duration": 180.9
+  },
+  "2025-04-15": {
+   "weather_code": 3,
+   "temperature_2m_max": 16.5,
+   "temperature_2m_min": 10.1,
+   "temperature_2m_mean": 12.8,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 21,
+   "wind_gusts_10m_max": 42.5,
+   "wind_direction_10m_dominant": 141,
+   "relative_humidity_2m_mean": 62,
+   "sunshine_duration": 13981.41
+  },
+  "2026-10-01": {
+   "weather_code": 1,
+   "temperature_2m_max": 19.6,
+   "temperature_2m_min": 6.7,
+   "temperature_2m_mean": 12.7,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 9,
+   "wind_gusts_10m_max": 22.7,
+   "wind_direction_10m_dominant": 98,
+   "relative_humidity_2m_mean": 52,
+   "sunshine_duration": 40844.93
+  },
+  "2026-10-02": {
+   "weather_code": 2,
+   "temperature_2m_max": 18.9,
+   "temperature_2m_min": 5.7,
+   "temperature_2m_mean": 12.1,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 9.1,
+   "wind_gusts_10m_max": 25.6,
+   "wind_direction_10m_dominant": 99,
+   "relative_humidity_2m_mean": 53,
+   "sunshine_duration": 40437.59
+  },
+  "2026-10-03": {
+   "weather_code": 2,
+   "temperature_2m_max": 19.8,
+   "temperature_2m_min": 5.3,
+   "temperature_2m_mean": 11.6,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 6.3,
+   "wind_gusts_10m_max": 16.9,
+   "wind_direction_10m_dominant": 125,
+   "relative_humidity_2m_mean": 57,
+   "sunshine_duration": 40030.58
+  },
+  "2026-10-04": {
+   "weather_code": 0,
+   "temperature_2m_max": 21.1,
+   "temperature_2m_min": 5.3,
+   "temperature_2m_mean": 12.4,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 6.2,
+   "wind_gusts_10m_max": 18.4,
+   "wind_direction_10m_dominant": 114,
+   "relative_humidity_2m_mean": 51,
+   "sunshine_duration": 39956.24
+  },
+  "2026-10-05": {
+   "weather_code": 3,
+   "temperature_2m_max": 21.2,
+   "temperature_2m_min": 7,
+   "temperature_2m_mean": 13.2,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 5.8,
+   "wind_gusts_10m_max": 17.6,
+   "wind_direction_10m_dominant": 118,
+   "relative_humidity_2m_mean": 49,
+   "sunshine_duration": 39550.37
+  },
+  "2026-10-06": {
+   "weather_code": 2,
+   "temperature_2m_max": 22.1,
+   "temperature_2m_min": 7.6,
+   "temperature_2m_mean": 14,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 6,
+   "wind_gusts_10m_max": 18,
+   "wind_direction_10m_dominant": 110,
+   "relative_humidity_2m_mean": 56,
+   "sunshine_duration": 39478.04
+  },
+  "2026-10-07": {
+   "weather_code": 3,
+   "temperature_2m_max": 22,
+   "temperature_2m_min": 7.5,
+   "temperature_2m_mean": 13.6,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 6.4,
+   "wind_gusts_10m_max": 15.1,
+   "wind_direction_10m_dominant": 100,
+   "relative_humidity_2m_mean": 62,
+   "sunshine_duration": 37930.09
+  },
+  "2026-10-08": {
+   "weather_code": 3,
+   "temperature_2m_max": 24.3,
+   "temperature_2m_min": 6.3,
+   "temperature_2m_mean": 15.1,
+   "precipitation_sum": 0,
+   "wind_speed_10m_max": 14.7,
+   "wind_gusts_10m_max": 28.8,
+   "wind_direction_10m_dominant": 116,
+   "relative_humidity_2m_mean": 50,
+   "sunshine_duration": 39003.69
+  },
+  "_meta": {
+   "sursa": "Open-Meteo (ERA5 / archive API)",
+   "lat": 45.79965,
+   "lon": 24.170616,
+   "elevatie_m": 415
+  }
+ }
+}
