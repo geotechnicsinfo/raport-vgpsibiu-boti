@@ -4,22 +4,17 @@
    "categorie": "Foraje geotehnice – clădirea C",
    "hala": "C",
    "proiectate": 5,
-   "executate": 4,
-   "neexecutate": [
-    "FC4"
-   ]
+   "executate": 5,
+   "neexecutate": []
   },
   {
    "categorie": "Foraje geotehnice – clădirea D",
    "hala": "D",
    "proiectate": 7,
-   "executate": 1,
+   "executate": 4,
    "neexecutate": [
     "FD1",
     "FD2",
-    "FD4",
-    "FD5",
-    "FD6",
     "FD7"
    ]
   },
@@ -39,14 +34,10 @@
    "categorie": "Foraje geotehnice – total",
    "hala": null,
    "proiectate": 17,
-   "executate": 6,
+   "executate": 10,
    "neexecutate": [
-    "FC4",
     "FD1",
     "FD2",
-    "FD4",
-    "FD5",
-    "FD6",
     "FD7",
     "FE1",
     "FE2",
@@ -70,13 +61,13 @@
   "tip_lucrari": "Foraje geotehnice cu prelevare de probe (12 m, FC/FD/FE) și penetrări statice CPT/CPTu (15 m, aprilie 2025)",
   "perioada": {
    "de_la": "2026-10-05",
-   "pana_la": "2026-10-10"
+   "pana_la": "2026-10-17"
   },
   "perioada_cpt": {
    "de_la": "2025-04-03",
    "pana_la": "2025-04-13"
   },
-  "generat": "2026-10-11"
+  "generat": "2026-10-17"
  },
  "investigatii": [
   {
@@ -859,6 +850,348 @@
    ]
   },
   {
+   "id": "FC4",
+   "id_fisa": "FC4",
+   "tip": "foraj",
+   "nr": 4,
+   "hala": "C",
+   "categorie_kml": "Foraj geotehnic – clădirea C",
+   "eticheta": "Foraj geotehnic FC4",
+   "data": "2026-10-13",
+   "nota_data": "Fișa este datată 2026-10-13; fotografiile au fost transmise pe 2026-10-14. S-a reținut data din fișă. De la 8,40 m foraj mecanizat; de la 10,90 m confirmat manual (decolmatare 2,5 ore).",
+   "adancime": 12.0,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=3.50m",
+   "NH": 3.5,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 45°49'36.912\"",
+    "E 024°08'43.933\""
+   ],
+   "lat": 45.82692,
+   "lon": 24.145537,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FC4",
+    "lat": 45.82693,
+    "lon": 24.145571,
+    "stereo70": {
+     "E": 433744.46,
+     "N": 481155.03
+    },
+    "obs": "Foraj + probe + laborator – clădirea C",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.2,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.2,
+     "la": 1.3,
+     "descriere": "argilă prăfoasă negricioasă, vârtoasă"
+    },
+    {
+     "de": 1.3,
+     "la": 3.8,
+     "descriere": "argilă prăfoasă cafenie, vârtoasă, cu concrețiuni calcaroase; de la 1,70 m consistent-vârtoasă; la 3,60 m infiltrații de apă"
+    },
+    {
+     "de": 3.8,
+     "la": 4.6,
+     "descriere": "nisip prăfos cafeniu"
+    },
+    {
+     "de": 4.6,
+     "la": 5.3,
+     "descriere": "argilă prăfoasă nisipoasă, cafenie, consistentă; în ștuț trecere la nisip prăfos cafeniu"
+    },
+    {
+     "de": 5.3,
+     "la": 5.7,
+     "descriere": "nisip prăfos cafeniu"
+    },
+    {
+     "de": 5.7,
+     "la": 5.9,
+     "descriere": "argilă nisipoasă cenușie, consistentă"
+    },
+    {
+     "de": 5.9,
+     "la": 6.1,
+     "descriere": "nisip argilos cenușiu"
+    },
+    {
+     "de": 6.1,
+     "la": 6.6,
+     "descriere": "nisip prăfos cenușiu"
+    },
+    {
+     "de": 6.6,
+     "la": 7.5,
+     "descriere": "nisip mediu cafeniu cu pietriș cenușiu"
+    },
+    {
+     "de": 7.5,
+     "la": 8.4,
+     "descriere": "argilă cenușie, consistent-vârtoasă, cu ușor miros de mâl"
+    },
+    {
+     "de": 8.4,
+     "la": 8.8,
+     "descriere": "nisip mâlos; nu s-a mai putut continua manual – de la 8,40 m continuare mecanizată"
+    },
+    {
+     "de": 8.8,
+     "la": 11.9,
+     "descriere": "alternanță de argilă cenușie, consistentă, cu nisip argilos"
+    },
+    {
+     "de": 11.9,
+     "la": 12.0,
+     "descriere": "nisip argilos cenușiu"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 4,
+     "adancime": 5.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "Ø60"
+    },
+    {
+     "nr": 5,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 7.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 7,
+     "adancime": 8.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 10.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 9,
+     "adancime": 12.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FC4/fisa1.jpg",
+    "thumb": "photos/FC4/t_fisa1.jpg",
+    "original": "FC4-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FC4/fisa1.jpg",
+     "thumb": "photos/FC4/t_fisa1.jpg",
+     "original": "FC4-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FC4/fisa2.jpg",
+     "thumb": "photos/FC4/t_fisa2.jpg",
+     "original": "FC4-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FC4/01.jpg",
+     "thumb": "photos/FC4/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.50 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/02.jpg",
+     "thumb": "photos/FC4/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.50 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/03.jpg",
+     "thumb": "photos/FC4/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.50 PM (3).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/04.jpg",
+     "thumb": "photos/FC4/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.50 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/05.jpg",
+     "thumb": "photos/FC4/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/06.jpg",
+     "thumb": "photos/FC4/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/07.jpg",
+     "thumb": "photos/FC4/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (3).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/08.jpg",
+     "thumb": "photos/FC4/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (4).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/09.jpg",
+     "thumb": "photos/FC4/t_09.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (5).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/10.jpg",
+     "thumb": "photos/FC4/t_10.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (6).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/11.jpg",
+     "thumb": "photos/FC4/t_11.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (7).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/12.jpg",
+     "thumb": "photos/FC4/t_12.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM (8).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/13.jpg",
+     "thumb": "photos/FC4/t_13.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.51 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/14.jpg",
+     "thumb": "photos/FC4/t_14.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/15.jpg",
+     "thumb": "photos/FC4/t_15.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM (2).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/16.jpg",
+     "thumb": "photos/FC4/t_16.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM (3).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/17.jpg",
+     "thumb": "photos/FC4/t_17.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM (4).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/18.jpg",
+     "thumb": "photos/FC4/t_18.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM (5).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-14 19:13"
+    },
+    {
+     "src": "photos/FC4/19.jpg",
+     "thumb": "photos/FC4/t_19.jpg",
+     "original": "WhatsApp Image 2026-10-14 at 7.13.52 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-14 19:13"
+    }
+   ]
+  },
+  {
    "id": "FC5",
    "id_fisa": "FC5",
    "tip": "foraj",
@@ -1316,6 +1649,883 @@
      "w": 1200,
      "h": 1600,
      "timestamp": "2026-10-08 19:22"
+    }
+   ]
+  },
+  {
+   "id": "FD4",
+   "id_fisa": "FD4",
+   "tip": "foraj",
+   "nr": 4,
+   "hala": "D",
+   "categorie_kml": "Foraj geotehnic – clădirea D",
+   "eticheta": "Foraj geotehnic FD4",
+   "data": "2026-10-15",
+   "nota_data": "Fișa este datată 2026-10-15; fotografiile au fost transmise pe 2026-10-17. S-a reținut data din fișă. Forajul se încheie la 11,00 m (proiectat 12 m); de la 8,00 m continuat manual.",
+   "adancime": 11.0,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=2.90m",
+   "NH": 2.9,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 45°49'38.783\"",
+    "E 024°08'35.604\""
+   ],
+   "lat": 45.82744,
+   "lon": 24.143223,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FD4",
+    "lat": 45.827434,
+    "lon": 24.143204,
+    "stereo70": {
+     "E": 433561.22,
+     "N": 481213.01
+    },
+    "obs": "Foraj + probe + laborator – clădirea D",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.2,
+     "descriere": "sol vegetal cafeniu"
+    },
+    {
+     "de": 0.2,
+     "la": 0.6,
+     "descriere": "praf nisipos cafeniu, vârtos"
+    },
+    {
+     "de": 0.6,
+     "la": 1.8,
+     "descriere": "argilă neagră, vârtoasă"
+    },
+    {
+     "de": 1.8,
+     "la": 3.8,
+     "descriere": "argilă prăfoasă cafenie, cu intercalații cenușii, consistent-vârtoasă; la 2,90 m infiltrații de apă"
+    },
+    {
+     "de": 3.8,
+     "la": 4.3,
+     "descriere": "praf nisipos cafeniu, consistent-vârtos"
+    },
+    {
+     "de": 4.3,
+     "la": 5.0,
+     "descriere": "argilă prăfoasă cafenie, consistent-vârtoasă, cu intercalații cenușii"
+    },
+    {
+     "de": 5.0,
+     "la": 5.4,
+     "descriere": "argilă nisipoasă cenușie, consistent-vârtoasă"
+    },
+    {
+     "de": 5.4,
+     "la": 6.4,
+     "descriere": "nisip argilos cafeniu"
+    },
+    {
+     "de": 6.4,
+     "la": 6.7,
+     "descriere": "argilă nisipoasă cenușie, consistent-vârtoasă"
+    },
+    {
+     "de": 6.7,
+     "la": 8.2,
+     "descriere": "nisip argilos cenușiu"
+    },
+    {
+     "de": 8.2,
+     "la": 9.6,
+     "descriere": "argilă cenușie, consistentă, cu ușor miros de mâl"
+    },
+    {
+     "de": 9.6,
+     "la": 11.0,
+     "descriere": "nisip argilos cenușiu în alternanță cu argilă cenușie consistentă, cu miros de baltă"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 9,
+     "adancime": 9.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 10,
+     "adancime": 10.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 11,
+     "adancime": 11.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FD4/fisa1.jpg",
+    "thumb": "photos/FD4/t_fisa1.jpg",
+    "original": "FD4-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FD4/fisa1.jpg",
+     "thumb": "photos/FD4/t_fisa1.jpg",
+     "original": "FD4-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FD4/fisa2.jpg",
+     "thumb": "photos/FD4/t_fisa2.jpg",
+     "original": "FD4-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FD4/01.jpg",
+     "thumb": "photos/FD4/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.00 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:42"
+    },
+    {
+     "src": "photos/FD4/02.jpg",
+     "thumb": "photos/FD4/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.01 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:42"
+    },
+    {
+     "src": "photos/FD4/03.jpg",
+     "thumb": "photos/FD4/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.02 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:42"
+    },
+    {
+     "src": "photos/FD4/04.jpg",
+     "thumb": "photos/FD4/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.28 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:42"
+    },
+    {
+     "src": "photos/FD4/05.jpg",
+     "thumb": "photos/FD4/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.30 2PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 07:42"
+    },
+    {
+     "src": "photos/FD4/06.jpg",
+     "thumb": "photos/FD4/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.30 3PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 07:42"
+    },
+    {
+     "src": "photos/FD4/07.jpg",
+     "thumb": "photos/FD4/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.30 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:42"
+    },
+    {
+     "src": "photos/FD4/08.jpg",
+     "thumb": "photos/FD4/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.42.37 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:42"
+    }
+   ]
+  },
+  {
+   "id": "FD5",
+   "id_fisa": "FD5",
+   "tip": "foraj",
+   "nr": 5,
+   "hala": "D",
+   "categorie_kml": "Foraj geotehnic – clădirea D",
+   "eticheta": "Foraj geotehnic FD5",
+   "data": "2026-10-15",
+   "nota_data": "Forajul se încheie la 13,00 m (proiectat 12 m); la 12,70 m materialul se surpă.",
+   "adancime": 13.0,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=2.50m",
+   "NH": 2.5,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 45°49'38.662\"",
+    "E 024°08'38.134\""
+   ],
+   "lat": 45.827406,
+   "lon": 24.143926,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FD5",
+    "lat": 45.827396,
+    "lon": 24.143923,
+    "stereo70": {
+     "E": 433617.01,
+     "N": 481208.18
+    },
+    "obs": "Foraj + probe + laborator – clădirea D",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.2,
+     "descriere": "sol vegetal cafeniu"
+    },
+    {
+     "de": 0.2,
+     "la": 0.7,
+     "descriere": "nisip fin prăfos, cafeniu"
+    },
+    {
+     "de": 0.7,
+     "la": 1.3,
+     "descriere": "argilă neagră, vârtoasă"
+    },
+    {
+     "de": 1.3,
+     "la": 1.8,
+     "descriere": "argilă prăfoasă cenușiu-negricioasă, vârtoasă"
+    },
+    {
+     "de": 1.8,
+     "la": 2.7,
+     "descriere": "argilă prăfoasă cafeniu-gălbuie, vârtoasă, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2.7,
+     "la": 3.0,
+     "descriere": "nisip prăfos cafeniu; la 2,70 m infiltrații de apă"
+    },
+    {
+     "de": 3.0,
+     "la": 4.4,
+     "descriere": "argilă prăfoasă cafenie, consistentă"
+    },
+    {
+     "de": 4.4,
+     "la": 4.7,
+     "descriere": "argilă prăfoasă cenușie, consistentă"
+    },
+    {
+     "de": 4.7,
+     "la": 5.3,
+     "descriere": "nisip argilos cafeniu"
+    },
+    {
+     "de": 5.3,
+     "la": 6.3,
+     "descriere": "nisip mediu cu liant argilos, cafeniu"
+    },
+    {
+     "de": 6.3,
+     "la": 8.8,
+     "descriere": "argilă prăfoasă nisipoasă, cenușie, consistentă, în alternanță cu nisip argilos cenușiu; de la 8,00 m ușor miros de baltă"
+    },
+    {
+     "de": 8.8,
+     "la": 10.6,
+     "descriere": "argilă cenușie, consistent-vârtoasă"
+    },
+    {
+     "de": 10.6,
+     "la": 13.0,
+     "descriere": "alternanță de argilă cenușie, consistentă, cu nisip argilos cenușiu"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "inox Ø90"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 9,
+     "adancime": 9.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "inox Ø90"
+    },
+    {
+     "nr": 10,
+     "adancime": 10.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 11,
+     "adancime": 11.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 12,
+     "adancime": 12.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 13,
+     "adancime": 13.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FD5/fisa1.jpg",
+    "thumb": "photos/FD5/t_fisa1.jpg",
+    "original": "FD5-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FD5/fisa1.jpg",
+     "thumb": "photos/FD5/t_fisa1.jpg",
+     "original": "FD5-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FD5/fisa2.jpg",
+     "thumb": "photos/FD5/t_fisa2.jpg",
+     "original": "FD5-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FD5/01.jpg",
+     "thumb": "photos/FD5/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.20 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/02.jpg",
+     "thumb": "photos/FD5/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.21 PM (1).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/03.jpg",
+     "thumb": "photos/FD5/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.21 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/04.jpg",
+     "thumb": "photos/FD5/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.22 PM (1).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/05.jpg",
+     "thumb": "photos/FD5/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.22 PM (2).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/06.jpg",
+     "thumb": "photos/FD5/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.22 PM (3).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/07.jpg",
+     "thumb": "photos/FD5/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.22 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/08.jpg",
+     "thumb": "photos/FD5/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.24 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/09.jpg",
+     "thumb": "photos/FD5/t_09.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.24 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/10.jpg",
+     "thumb": "photos/FD5/t_10.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.24 PM (3).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/11.jpg",
+     "thumb": "photos/FD5/t_11.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.24 PM (4).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/12.jpg",
+     "thumb": "photos/FD5/t_12.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.24 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/13.jpg",
+     "thumb": "photos/FD5/t_13.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.25 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/14.jpg",
+     "thumb": "photos/FD5/t_14.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.25 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    },
+    {
+     "src": "photos/FD5/15.jpg",
+     "thumb": "photos/FD5/t_15.jpg",
+     "original": "WhatsApp Image 2026-10-15 at 6.48.25 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-15 18:48"
+    }
+   ]
+  },
+  {
+   "id": "FD6",
+   "id_fisa": "FD6",
+   "tip": "foraj",
+   "nr": 6,
+   "hala": "D",
+   "categorie_kml": "Foraj geotehnic – clădirea D",
+   "eticheta": "Foraj geotehnic FD6",
+   "data": "2026-10-17",
+   "nota_data": "Forajul se încheie la 11,00 m (proiectat 12 m); de la 7,80 m foraj mecanizat.",
+   "adancime": 11.0,
+   "adancime_proiectata": 12.0,
+   "apa": "NH=2.80m",
+   "NH": 2.8,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 45°49'41.216\"",
+    "E 024°08'36.415\""
+   ],
+   "lat": 45.828116,
+   "lon": 24.143449,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "FD6",
+    "lat": 45.8281,
+    "lon": 24.143405,
+    "stereo70": {
+     "E": 433577.66,
+     "N": 481286.87
+    },
+    "obs": "Foraj + probe + laborator – clădirea D",
+    "adancime": "12 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.2,
+     "descriere": "sol vegetal cafeniu"
+    },
+    {
+     "de": 0.2,
+     "la": 0.8,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 0.8,
+     "la": 1.6,
+     "descriere": "argilă neagră, vârtoasă"
+    },
+    {
+     "de": 1.6,
+     "la": 2.2,
+     "descriere": "argilă prăfoasă cafenie, vârtoasă"
+    },
+    {
+     "de": 2.2,
+     "la": 3.3,
+     "descriere": "argilă prăfoasă cafenie, consistentă, cu intercalații cenușii și concrețiuni calcaroase"
+    },
+    {
+     "de": 3.3,
+     "la": 3.8,
+     "descriere": "praf nisipos cafeniu, consistent; la 3,70 m apă"
+    },
+    {
+     "de": 3.8,
+     "la": 5.4,
+     "descriere": "argilă prăfoasă nisipoasă, cafenie, consistentă"
+    },
+    {
+     "de": 5.4,
+     "la": 7.3,
+     "descriere": "nisip prăfos cafeniu, în alternanță cu argilă nisipoasă cafenie, consistentă"
+    },
+    {
+     "de": 7.3,
+     "la": 7.8,
+     "descriere": "nisip argilos cenușiu, cu miros de baltă"
+    },
+    {
+     "de": 7.8,
+     "la": 8.5,
+     "descriere": "argilă prăfoasă cenușie, consistentă, cu un ușor miros de baltă"
+    },
+    {
+     "de": 8.5,
+     "la": 9.6,
+     "descriere": "nisip argilos cenușiu"
+    },
+    {
+     "de": 9.6,
+     "la": 11.0,
+     "descriere": "argilă cenușie, consistentă, cu miros de baltă"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "inox Ø90"
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 9,
+     "adancime": 9.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    },
+    {
+     "nr": 10,
+     "adancime": 11.0,
+     "tip": "probă tulburată (pungă)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/FD6/fisa1.jpg",
+    "thumb": "photos/FD6/t_fisa1.jpg",
+    "original": "FD6-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/FD6/fisa1.jpg",
+     "thumb": "photos/FD6/t_fisa1.jpg",
+     "original": "FD6-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/FD6/fisa2.jpg",
+     "thumb": "photos/FD6/t_fisa2.jpg",
+     "original": "FD6-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/FD6/01.jpg",
+     "thumb": "photos/FD6/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.05 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/02.jpg",
+     "thumb": "photos/FD6/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.14 PM (1).jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/03.jpg",
+     "thumb": "photos/FD6/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.14 PM.jpeg",
+     "w": 720,
+     "h": 1280,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/04.jpg",
+     "thumb": "photos/FD6/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.16 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/05.jpg",
+     "thumb": "photos/FD6/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.16 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/06.jpg",
+     "thumb": "photos/FD6/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.16 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/07.jpg",
+     "thumb": "photos/FD6/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (1).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/08.jpg",
+     "thumb": "photos/FD6/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (2).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/09.jpg",
+     "thumb": "photos/FD6/t_09.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (3).jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/10.jpg",
+     "thumb": "photos/FD6/t_10.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (4).jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/11.jpg",
+     "thumb": "photos/FD6/t_11.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (5).jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/12.jpg",
+     "thumb": "photos/FD6/t_12.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (6).jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/13.jpg",
+     "thumb": "photos/FD6/t_13.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM (7).jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-17 19:40"
+    },
+    {
+     "src": "photos/FD6/14.jpg",
+     "thumb": "photos/FD6/t_14.jpg",
+     "original": "WhatsApp Image 2026-10-17 at 7.40.17 PM.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-17 19:40"
     }
    ]
   },
@@ -8494,6 +9704,90 @@
    "wind_direction_10m_dominant": 54,
    "relative_humidity_2m_mean": 81,
    "sunshine_duration": 37771.45
+  },
+  "2026-10-11": {
+   "weather_code": 61,
+   "temperature_2m_max": 21.3,
+   "temperature_2m_min": 11.2,
+   "temperature_2m_mean": 15.2,
+   "precipitation_sum": 9.4,
+   "wind_speed_10m_max": 15.0,
+   "wind_gusts_10m_max": 43.6,
+   "wind_direction_10m_dominant": 6,
+   "relative_humidity_2m_mean": 85,
+   "sunshine_duration": 31657.67
+  },
+  "2026-10-12": {
+   "weather_code": 63,
+   "temperature_2m_max": 13.4,
+   "temperature_2m_min": 11.1,
+   "temperature_2m_mean": 12.2,
+   "precipitation_sum": 9.7,
+   "wind_speed_10m_max": 11.2,
+   "wind_gusts_10m_max": 21.2,
+   "wind_direction_10m_dominant": 246,
+   "relative_humidity_2m_mean": 89,
+   "sunshine_duration": 311.99
+  },
+  "2026-10-13": {
+   "weather_code": 61,
+   "temperature_2m_max": 12.4,
+   "temperature_2m_min": 7.5,
+   "temperature_2m_mean": 9.9,
+   "precipitation_sum": 5.6,
+   "wind_speed_10m_max": 7.7,
+   "wind_gusts_10m_max": 17.6,
+   "wind_direction_10m_dominant": 274,
+   "relative_humidity_2m_mean": 82,
+   "sunshine_duration": 11273.44
+  },
+  "2026-10-14": {
+   "weather_code": 51,
+   "temperature_2m_max": 13.7,
+   "temperature_2m_min": 4.8,
+   "temperature_2m_mean": 8.6,
+   "precipitation_sum": 0.8,
+   "wind_speed_10m_max": 7.2,
+   "wind_gusts_10m_max": 17.3,
+   "wind_direction_10m_dominant": 278,
+   "relative_humidity_2m_mean": 80,
+   "sunshine_duration": 29693.93
+  },
+  "2026-10-15": {
+   "weather_code": 51,
+   "temperature_2m_max": 13.5,
+   "temperature_2m_min": 3.6,
+   "temperature_2m_mean": 7.8,
+   "precipitation_sum": 0.8,
+   "wind_speed_10m_max": 15.9,
+   "wind_gusts_10m_max": 37.1,
+   "wind_direction_10m_dominant": 292,
+   "relative_humidity_2m_mean": 76,
+   "sunshine_duration": 23671.59
+  },
+  "2026-10-16": {
+   "weather_code": 53,
+   "temperature_2m_max": 11.6,
+   "temperature_2m_min": 4.7,
+   "temperature_2m_mean": 7.6,
+   "precipitation_sum": 2.3,
+   "wind_speed_10m_max": 7.5,
+   "wind_gusts_10m_max": 21.2,
+   "wind_direction_10m_dominant": 264,
+   "relative_humidity_2m_mean": 80,
+   "sunshine_duration": 20091.0
+  },
+  "2026-10-17": {
+   "weather_code": 61,
+   "temperature_2m_max": 13.1,
+   "temperature_2m_min": 6.4,
+   "temperature_2m_mean": 9.4,
+   "precipitation_sum": 3.1,
+   "wind_speed_10m_max": 6.1,
+   "wind_gusts_10m_max": 15.5,
+   "wind_direction_10m_dominant": 270,
+   "relative_humidity_2m_mean": 77,
+   "sunshine_duration": 15713.42
   },
   "_meta": {
    "sursa": "Open-Meteo (ERA5 / archive API)",

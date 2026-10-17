@@ -133,8 +133,12 @@ def process_photos(folder, out_dir, rel, iid):
             if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src): continue
             img.save(dst, 'JPEG', quality=QUALITY, optimize=True, progressive=True)
         entry = {'src': f'{rel}/{name}.jpg', 'thumb': f'{rel}/t_{name}.jpg', 'original': f, 'w': im.width, 'h': im.height}
-        m = re.search(r'(\d{4}-\d{2}-\d{2}) at (\d{2})\.(\d{2})', f)
-        if m: entry['timestamp'] = f'{m.group(1)} {m.group(2)}:{m.group(3)}'
+        m = re.search(r'(\d{4}-\d{2}-\d{2}) at (\d{1,2})\.(\d{2})(?:\.\d{2})?\s*(AM|PM)?', f, re.I)
+        if m:
+            hh = int(m.group(2)); ap = (m.group(4) or '').upper()
+            if ap == 'PM' and hh < 12: hh += 12
+            if ap == 'AM' and hh == 12: hh = 0
+            entry['timestamp'] = f'{m.group(1)} {hh:02d}:{m.group(3)}'
         (fise if is_fisa else pics).append(entry)
     return fise, pics
 
