@@ -214,6 +214,38 @@ svg.log text{font-family:var(--mono)}
 .probe-empty{color:var(--ink-3);font-size:13.5px}
 .note{font-size:13px;background:var(--orange-l);border-left:3px solid var(--orange);padding:8px 10px;border-radius:0 4px 4px 0;color:#6b3f00;margin-top:10px}
 
+/* ---------- dronă / panorame ---------- */
+.dr-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px}
+.dr-tab{border:1px solid var(--line);border-radius:var(--r);background:#fff;padding:0;cursor:pointer;text-align:left;overflow:hidden;transition:border-color .15s,box-shadow .15s}
+.dr-tab .th{height:58px;background-size:cover;background-position:center;filter:saturate(.85)}
+.dr-tab .tt{padding:6px 9px 8px;font-size:12.5px;line-height:1.25;color:var(--ink-2)}
+.dr-tab .tt b{display:block;font-family:var(--cond);font-size:15px;color:var(--navy);font-weight:600}
+.dr-tab.on{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}
+.dr-tab.on .th{filter:none}
+@media(max-width:800px){.dr-tabs{grid-template-columns:repeat(3,1fr)}.dr-tab .th{height:46px}}
+.pv{position:relative;height:clamp(300px,56vh,600px);overflow:hidden;background:#0A2F4F;border-radius:var(--r);cursor:grab;touch-action:none;user-select:none}
+.pv.drag{cursor:grabbing}
+.pv img.pi{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;max-width:none;pointer-events:none}
+.pv .ov{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 14px;background:linear-gradient(0deg,rgba(10,47,79,.85),rgba(10,47,79,0));color:#fff;pointer-events:none}
+.pv .ov h3{font-size:24px}
+.pv .ov p{margin:3px 0 0;font-size:13.5px;opacity:.9;max-width:80ch}
+.pv .ov .meta{font-family:var(--mono);font-size:11.5px;opacity:.75;margin-top:6px}
+.pv .ctl{position:absolute;top:12px;right:12px;display:flex;gap:6px}
+.pv .ctl button{width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:var(--navy);font-size:17px;font-weight:700;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.pv .ctl button.on{background:var(--orange);color:#fff}
+.pv .hint{position:absolute;top:14px;left:14px;background:rgba(10,47,79,.7);color:#fff;font-size:12px;padding:5px 10px;border-radius:999px;pointer-events:none;transition:opacity .6s}
+.pv .ld{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-family:var(--mono);font-size:12px;opacity:.7;pointer-events:none}
+.pv .ov{}
+@media(max-width:600px){.pv .ov{padding:28px 12px 10px}.pv .ov h3{font-size:18px}.pv .ov p{font-size:12px}.pv .ov .meta{display:none}.pv .ctl button{width:32px;height:32px;font-size:15px}.pv .hint{display:none}}
+.pv:fullscreen{border-radius:0;height:100vh}
+.pv-mini{position:relative;margin-top:8px;height:58px;border-radius:4px;overflow:hidden;cursor:pointer;background:#e9edf1}
+.pv-mini img{height:100%;width:100%;object-fit:fill;display:block;opacity:.85}
+.pv-mini .vp{position:absolute;top:0;bottom:0;border:2px solid var(--orange);background:rgba(242,140,0,.12);border-radius:3px;pointer-events:none}
+.dr-foto{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:10px}
+.dr-foto a{display:block;aspect-ratio:16/9;background-size:cover;background-position:center;border-radius:4px;position:relative}
+.dr-foto a span{position:absolute;left:4px;bottom:3px;font-family:var(--mono);font-size:10.5px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.7)}
+.dr-foto a:hover{outline:2px solid var(--orange)}
+details.dr-more summary{cursor:pointer;color:var(--blue);font-weight:600;font-size:14px;margin-top:16px}
 /* ---------- lightbox ---------- */
 .lb{position:fixed;inset:0;background:rgba(10,20,30,.92);display:none;z-index:50;align-items:center;justify-content:center;flex-direction:column}
 .lb.open{display:flex}
@@ -272,6 +304,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
     </a>
     <nav class="nav">
       <a href="#/" data-nav="/">Sinteză</a>
+      <a href="#/drona" data-nav="/drona">Dronă</a>
       <a href="#/harta" data-nav="/harta">Hartă</a>
       <a href="#/foraje" data-nav="/foraje">Foraje</a>
       <a href="#/cpt" data-nav="/cpt">CPT</a>
@@ -295,6 +328,28 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
       </div>
       <div id="intro3d" aria-label="Vedere 3D stilizată a amplasamentului și a investigațiilor executate"></div>
     </div>
+
+    <section class="block" id="drona" style="display:none">
+      <div class="wrap">
+        <div class="sec-h"><h2>Imagini aeriene – dronă</h2><span class="n" id="dr-n"></span></div>
+        <div class="dr-tabs" id="dr-tabs"></div>
+        <div class="pv" id="pv">
+          <div class="ld" id="pv-ld">se încarcă panorama…</div>
+          <img class="pi" id="pv-img" alt="">
+          <div class="hint" id="pv-hint">Trage pentru a explora · dublu-click sau +/− pentru zoom</div>
+          <div class="ctl">
+            <button id="pv-auto" class="on" title="Rotire automată">⟳</button>
+            <button id="pv-zi" title="Mărește">+</button>
+            <button id="pv-zo" title="Micșorează">−</button>
+            <button id="pv-map" title="Arată pe hartă">⌖</button>
+            <button id="pv-fs" title="Ecran complet">⛶</button>
+          </div>
+          <div class="ov"><h3 id="pv-t"></h3><p id="pv-d"></p><div class="meta" id="pv-m"></div></div>
+        </div>
+        <div class="pv-mini" id="pv-mini"><img id="pv-mini-img" alt=""><div class="vp" id="pv-vp"></div></div>
+        <details class="dr-more"><summary id="dr-fs"></summary><div class="dr-foto" id="dr-foto"></div></details>
+      </div>
+    </section>
 
     <section class="block" id="harta">
       <div class="wrap">
@@ -382,6 +437,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
 <footer><div class="wrap">
   <span id="f-exec"></span>
   <span>Fundal hartă: © OpenStreetMap contributors · Imagini satelit: Esri World Imagery</span>
+  <span>Imagini aeriene: dronă DJI, 18.10.2026 – panorame asamblate</span>
   <span>Meteo: Open-Meteo (reanaliză ERA5), punct de grilă cel mai apropiat</span>
   <span>CPT: Geo-Explorer v2.0 · interpretare SBT după Robertson (2009/2010)</span>
   <span id="f-gen"></span>
@@ -644,6 +700,7 @@ function initMap(){
     m.bindPopup(`<div class="pop"><b>${i.eticheta}</b><br>${fmtDate(i.data)} · ${n2(i.adancime)} m<br>${i.NH!=null?'NH = '+n2(i.NH)+' m':esc(i.apa||'')}<br><a href="#/i/${i.id}">Deschide fișa →</a></div>`);
     markers[i.id] = m; b.push([i.lat,i.lon]);
   });
+  addDroneMarkers();
   if (b.length) map.fitBounds(b,{padding:[30,30]});
   document.getElementById('btn-fit').onclick = () => map.fitBounds(b,{padding:[30,30]});
   document.getElementById('btn-sat').onclick = e => { satOn=!satOn; map.removeLayer(satOn?baseOSM:baseSat); (satOn?baseSat:baseOSM).addTo(map); e.target.textContent = satOn?'Hartă':'Satelit'; };
@@ -872,6 +929,90 @@ document.getElementById('lb-n').onclick = () => { LB.k=(LB.k+1)%LB.imgs.length; 
 document.getElementById('lb').onclick = e => { if(e.target.id==='lb') e.target.classList.remove('open'); };
 document.addEventListener('keydown', e => { const lb=document.getElementById('lb'); if(!lb.classList.contains('open')) return; if(e.key==='Escape') lb.classList.remove('open'); if(e.key==='ArrowLeft') document.getElementById('lb-p').click(); if(e.key==='ArrowRight') document.getElementById('lb-n').click(); });
 
+
+/* ============================ DRONĂ / PANORAME ============================ */
+let DR = null, PV = null;
+function hav(a,b,c,d){ const R=6371000,r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r; return R*Math.hypot(x,y); }
+function nearestInv(lat,lon){ let best=null; INV.forEach(i=>{ if(i.lat==null) return; const d=hav(lat,lon,i.lat,i.lon); if(!best||d<best.d) best={i,d}; }); return best; }
+function initDrona(d){
+  DR = d; if (!DR || !DR.panorame || !DR.panorame.length) return;
+  document.getElementById('drona').style.display='';
+  document.getElementById('dr-n').textContent = `${DR.panorame.length} panorame asamblate din ${DR.foto.length} fotografii · ${fmtDate(DR.data)}`;
+  document.getElementById('dr-tabs').innerHTML = DR.panorame.map((p,k)=>`<button class="dr-tab" data-k="${k}"><div class="th" style="background-image:url('${p.mic}')"></div><div class="tt"><b>${esc(p.id)} · ${p.tip==='360'?'360°':p.cadre+' cadre'}</b>${esc(p.titlu)}</div></button>`).join('');
+  document.getElementById('dr-tabs').onclick = e => { const b=e.target.closest('.dr-tab'); if(b) showPano(+b.dataset.k, true); };
+  document.getElementById('dr-fs').textContent = `Fotografiile individuale (${DR.foto.length})`;
+  const imgs = DR.foto.map(f=>({src:f.src, cap:`Dronă ${f.n} · ${f.t?f.t.slice(11,16):''} · ${f.lat.toFixed(5)}, ${f.lon.toFixed(5)}`}));
+  document.getElementById('dr-foto').innerHTML = DR.foto.map((f,k)=>`<a href="${f.src}" data-k="${k}" style="background-image:url('${f.thumb}')"><span>${f.n}</span></a>`).join('');
+  document.querySelectorAll('#dr-foto a').forEach(a => a.onclick = e => { e.preventDefault(); openLB(imgs, +a.dataset.k); });
+  setupPV(); showPano(0, false);
+  if (map) addDroneMarkers();
+}
+function addDroneMarkers(){
+  if (!DR || !map || typeof L==='undefined' || map._drDone) return; map._drDone = true;
+  const ic = L.divIcon({className:'',iconSize:[26,26],iconAnchor:[13,13],html:'<div style="width:26px;height:26px;border-radius:50%;background:#0A2F4F;border:2px solid #F28C00;display:grid;place-items:center;color:#fff;font-size:13px;box-shadow:0 1px 4px rgba(0,0,0,.35)">✈</div>'});
+  DR.panorame.forEach((p,k) => {
+    L.marker([p.lat,p.lon],{icon:ic,zIndexOffset:500}).addTo(map).bindTooltip(`Dronă ${p.id}`,{direction:'top',offset:[0,-12]})
+      .bindPopup(`<div class="pop"><b>Dronă ${esc(p.id)}</b> · ${esc(p.titlu)}<br><a href="#/drona" onclick="showPano(${k},true)">Deschide panorama →</a></div>`);
+  });
+}
+function setupPV(){
+  const el=document.getElementById('pv'), img=document.getElementById('pv-img');
+  PV = {el, img, x:0, y:0, s:1, s0:1, auto:true, dir:-1, idle:0, last:0, k:-1};
+  const clamp = () => { const W=el.clientWidth,H=el.clientHeight, iw=img.naturalWidth*PV.s, ih=img.naturalHeight*PV.s;
+    PV.x = iw<=W ? (W-iw)/2 : Math.min(0,Math.max(W-iw,PV.x)); PV.y = ih<=H ? (H-ih)/2 : Math.min(0,Math.max(H-ih,PV.y)); };
+  const apply = () => { clamp(); img.style.transform=`translate(${PV.x}px,${PV.y}px) scale(${PV.s})`; mini(); };
+  const mini = () => { if(!img.naturalWidth) return; const iw=img.naturalWidth*PV.s, ih=img.naturalHeight*PV.s, W=el.clientWidth;
+    const vp=document.getElementById('pv-vp'); vp.style.left=(-PV.x/iw*100)+'%'; vp.style.width=Math.min(100,W/iw*100)+'%'; };
+  PV.apply=apply; PV.fit = () => { PV.s0 = el.clientHeight/img.naturalHeight; if (img.naturalWidth*PV.s0 < el.clientWidth) PV.s0 = el.clientWidth/img.naturalWidth; PV.s=PV.s0; PV.y=0; apply(); };
+  const zoomAt = (f,cx,cy) => { const ns=Math.min(PV.s0*5,Math.max(PV.s0,PV.s*f)); PV.x=cx-(cx-PV.x)*ns/PV.s; PV.y=cy-(cy-PV.y)*ns/PV.s; PV.s=ns; apply(); };
+  const touch = () => { PV.idle=performance.now(); const h=document.getElementById('pv-hint'); h.style.opacity=0; };
+  let pts=new Map(), d0=0, s0=1, mid=null;
+  el.addEventListener('pointerdown', e => { if(e.target.closest('.ctl')) return; el.setPointerCapture(e.pointerId); pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); el.classList.add('drag'); touch();
+    if(pts.size===2){ const [a,b]=[...pts.values()]; d0=Math.hypot(a.x-b.x,a.y-b.y); s0=PV.s; } });
+  el.addEventListener('pointermove', e => { if(!pts.has(e.pointerId)) return; const p=pts.get(e.pointerId), r=el.getBoundingClientRect();
+    if(pts.size===1){ PV.x+=e.clientX-p.x; PV.y+=e.clientY-p.y; pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); apply(); }
+    else { pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); const [a,b]=[...pts.values()]; const d=Math.hypot(a.x-b.x,a.y-b.y); zoomAt((s0*d/d0)/PV.s,(a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top); }
+    touch(); });
+  const up = e => { pts.delete(e.pointerId); if(!pts.size) el.classList.remove('drag'); };
+  el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up);
+  el.addEventListener('dblclick', e => { const r=el.getBoundingClientRect(); zoomAt(PV.s>PV.s0*1.5?PV.s0/PV.s:2,e.clientX-r.left,e.clientY-r.top); touch(); });
+  el.addEventListener('wheel', e => { const r=el.getBoundingClientRect();
+    if (e.ctrlKey||e.metaKey){ e.preventDefault(); zoomAt(Math.exp(-e.deltaY*0.0025),e.clientX-r.left,e.clientY-r.top); touch(); }
+    else if (Math.abs(e.deltaX)>Math.abs(e.deltaY)){ e.preventDefault(); PV.x-=e.deltaX; apply(); touch(); } }, {passive:false});
+  const C=id=>document.getElementById(id);
+  C('pv-zi').onclick = () => { zoomAt(1.5,el.clientWidth/2,el.clientHeight/2); touch(); };
+  C('pv-zo').onclick = () => { zoomAt(1/1.5,el.clientWidth/2,el.clientHeight/2); touch(); };
+  C('pv-auto').onclick = e => { PV.auto=!PV.auto; e.currentTarget.classList.toggle('on',PV.auto); PV.idle=0; };
+  C('pv-fs').onclick = () => { if(document.fullscreenElement) document.exitFullscreen(); else if(el.requestFullscreen) el.requestFullscreen(); };
+  C('pv-map').onclick = () => { const p=DR.panorame[PV.k]; location.hash='#/harta'; setTimeout(()=>{ if(map){ map.setView([p.lat,p.lon],17); } },450); };
+  document.addEventListener('fullscreenchange', () => setTimeout(PV.fit,60));
+  window.addEventListener('resize', () => { if(img.naturalWidth) PV.fit(); });
+  const mm=C('pv-mini'); let mdrag=false;
+  const mgo = e => { const r=mm.getBoundingClientRect(), f=(e.clientX-r.left)/r.width, iw=img.naturalWidth*PV.s; PV.x=-(f*iw-el.clientWidth/2); apply(); touch(); };
+  mm.addEventListener('pointerdown', e => { mdrag=true; mm.setPointerCapture(e.pointerId); mgo(e); });
+  mm.addEventListener('pointermove', e => { if(mdrag) mgo(e); });
+  mm.addEventListener('pointerup', () => mdrag=false);
+  const tick = t => { const dt=Math.min(64,t-(PV.last||t)); PV.last=t;
+    const vis = el.getBoundingClientRect(); const onScreen = vis.bottom>0 && vis.top<innerHeight;
+    if (PV.auto && onScreen && img.naturalWidth && t-PV.idle>5000){ const W=el.clientWidth, iw=img.naturalWidth*PV.s;
+      if (iw>W+2){ PV.x += PV.dir*dt*0.028*Math.max(1,W/900); if (PV.x<=W-iw){PV.x=W-iw;PV.dir=1;} if (PV.x>=0){PV.x=0;PV.dir=-1;} apply(); } }
+    requestAnimationFrame(tick); };
+  requestAnimationFrame(tick);
+}
+function showPano(k, scroll){
+  if (!DR || !PV) return; const p=DR.panorame[k]; PV.k=k;
+  document.querySelectorAll('.dr-tab').forEach(b=>b.classList.toggle('on',+b.dataset.k===k));
+  const img=PV.img, ld=document.getElementById('pv-ld'); ld.style.display='grid';
+  document.getElementById('pv-mini-img').src=p.mic;
+  const nb = nearestInv(p.lat,p.lon);
+  document.getElementById('pv-t').textContent = `${p.id} · ${p.titlu}`;
+  document.getElementById('pv-d').textContent = p.desc;
+  document.getElementById('pv-m').textContent = `${p.tip==='360'?'360° · ':''}${p.cadre} cadre asamblate · ${fmtDate(DR.data)}${p.ora?' · ora '+p.ora:''} · ${p.lat.toFixed(5)}, ${p.lon.toFixed(5)}${nb?` · drona deasupra zonei forajului ${nb.i.id} (~${Math.max(5,Math.round(nb.d/5)*5)} m)`:''}`;
+  img.onload = () => { ld.style.display='none'; PV.fit(); PV.x=0; PV.dir=-1; PV.apply(); };
+  img.src = p.mic; const full = new Image(); full.onload = () => { if (PV.k===k){ const fx=PV.x/(img.naturalWidth*PV.s); img.onload = () => { PV.fit(); PV.x=fx*img.naturalWidth*PV.s; PV.apply(); }; img.src=p.src; } }; full.src=p.src;
+  if (scroll) document.getElementById('drona').scrollIntoView({behavior:'smooth'});
+}
+
 /* ============================ ROUTER ============================ */
 function route(){
   const h = location.hash.replace(/^#/,'') || '/';
@@ -881,7 +1022,7 @@ function route(){
   if (m||mc){ home.style.display='none'; det.classList.add('open'); if(m) renderDetail(m[1]); else renderCPTDetail(mc[1]); window.scrollTo(0,0); return; }
   det.classList.remove('open'); home.style.display='block';
   if (map) setTimeout(()=>map.invalidateSize(),50);
-  const sec = {'/harta':'harta','/foraje':'foraje','/cpt':'cpt','/zile':'zile','/tabel':'tabel'}[h];
+  const sec = {'/drona':'drona','/harta':'harta','/foraje':'foraje','/cpt':'cpt','/zile':'zile','/tabel':'tabel'}[h];
   if (sec) document.getElementById(sec).scrollIntoView({behavior:'smooth'}); else if (h==='/') window.scrollTo({top:0});
 }
 window.addEventListener('hashchange', route);
@@ -892,6 +1033,7 @@ fetch('data.json').then(r=>r.json()).then(d => {
   CPT = (d.cpt && d.cpt.teste || []).slice();
   try { renderHome(); } catch(e){ console.error(e); }
   fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, CPT, T); } catch(e){ console.error(e); } }).catch(()=>{});
+  fetch('drona/drona.json').then(r=>r.ok?r.json():null).then(dd => { try { if(dd) initDrona(dd); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; filt=b.dataset.f; document.querySelectorAll('#chips .chip').forEach(c=>c.classList.toggle('on',c===b)); renderGrid(); };
   document.getElementById('cpt-chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; cfilt=b.dataset.f; document.querySelectorAll('#cpt-chips .chip').forEach(c=>c.classList.toggle('on',c===b)); renderCPTGrid(); };

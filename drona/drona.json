@@ -1,0 +1,430 @@
+{
+ "data": "2026-10-18",
+ "sursa": "DJI (FC8582)",
+ "panorame": [
+  {
+   "id": "P1",
+   "titlu": "Panoramă circulară – zona clădirii C",
+   "desc": "Vedere de ansamblu din dreptul clădirii C: hala existentă, câmpul cu punctele de investigație și orașul Sibiu în fundal.",
+   "tip": "360",
+   "src": "drona/P1.jpg",
+   "mic": "drona/P1_s.jpg",
+   "w": 7694,
+   "h": 1000,
+   "cadre": 9,
+   "fotografii": [
+    "0156",
+    "0157",
+    "0158",
+    "0159",
+    "0160",
+    "0161",
+    "0162",
+    "0163",
+    "0164"
+   ],
+   "lat": 45.826703,
+   "lon": 24.145068,
+   "ora": "14:54–14:54"
+  },
+  {
+   "id": "P2",
+   "titlu": "Panoramă largă – zona clădirii D",
+   "desc": "Vedere oblică largă peste amplasamentul clădirii D, cu punctele de investigație, drumul de acces și hala existentă.",
+   "tip": "pano",
+   "src": "drona/P2.jpg",
+   "mic": "drona/P2_s.jpg",
+   "w": 8970,
+   "h": 1000,
+   "cadre": 14,
+   "fotografii": [
+    "0180",
+    "0181",
+    "0182",
+    "0183",
+    "0184",
+    "0185",
+    "0186",
+    "0187",
+    "0188",
+    "0189",
+    "0190",
+    "0191",
+    "0192",
+    "0193"
+   ],
+   "lat": 45.826755,
+   "lon": 24.143296,
+   "ora": "15:05–15:06"
+  },
+  {
+   "id": "P3",
+   "titlu": "Spre hala existentă",
+   "desc": "Câmpul cu punctele de investigație și platforma de lângă hala existentă, cu dealurile din fundal.",
+   "tip": "pano",
+   "src": "drona/P3.jpg",
+   "mic": "drona/P3_s.jpg",
+   "w": 3710,
+   "h": 1100,
+   "cadre": 3,
+   "fotografii": [
+    "0177",
+    "0178",
+    "0179"
+   ],
+   "lat": 45.826592,
+   "lon": 24.144045,
+   "ora": "15:05–15:05"
+  },
+  {
+   "id": "P4",
+   "titlu": "Panoramă joasă – latura de sud",
+   "desc": "Vedere de la înălțime mică peste câmpul de la sud de amplasament.",
+   "tip": "pano",
+   "src": "drona/P4.jpg",
+   "mic": "drona/P4_s.jpg",
+   "w": 3119,
+   "h": 1100,
+   "cadre": 4,
+   "fotografii": [
+    "0173",
+    "0174",
+    "0175",
+    "0176"
+   ],
+   "lat": 45.82582,
+   "lon": 24.145149,
+   "ora": "15:04–15:04"
+  },
+  {
+   "id": "P5",
+   "titlu": "Vedere oblică – punctele de investigație",
+   "desc": "Detaliu oblic de sus asupra urmelor lăsate de lucrările de investigație în câmp.",
+   "tip": "detaliu",
+   "src": "drona/P5.jpg",
+   "mic": "drona/P5_s.jpg",
+   "w": 3037,
+   "h": 1100,
+   "cadre": 8,
+   "fotografii": [
+    "0165",
+    "0166",
+    "0167",
+    "0168",
+    "0169",
+    "0170",
+    "0171",
+    "0172"
+   ],
+   "lat": 45.826704,
+   "lon": 24.145071,
+   "ora": "14:54–14:55"
+  }
+ ],
+ "foto": [
+  {
+   "n": "0156",
+   "src": "drona/foto/0156.jpg",
+   "thumb": "drona/foto/t_0156.jpg",
+   "t": "2026:10:18 14:54:24",
+   "lat": 45.826703,
+   "lon": 24.145068
+  },
+  {
+   "n": "0157",
+   "src": "drona/foto/0157.jpg",
+   "thumb": "drona/foto/t_0157.jpg",
+   "t": "2026:10:18 14:54:28",
+   "lat": 45.826703,
+   "lon": 24.145067
+  },
+  {
+   "n": "0158",
+   "src": "drona/foto/0158.jpg",
+   "thumb": "drona/foto/t_0158.jpg",
+   "t": "2026:10:18 14:54:32",
+   "lat": 45.826702,
+   "lon": 24.145067
+  },
+  {
+   "n": "0159",
+   "src": "drona/foto/0159.jpg",
+   "thumb": "drona/foto/t_0159.jpg",
+   "t": "2026:10:18 14:54:35",
+   "lat": 45.826702,
+   "lon": 24.145067
+  },
+  {
+   "n": "0160",
+   "src": "drona/foto/0160.jpg",
+   "thumb": "drona/foto/t_0160.jpg",
+   "t": "2026:10:18 14:54:38",
+   "lat": 45.826701,
+   "lon": 24.145068
+  },
+  {
+   "n": "0161",
+   "src": "drona/foto/0161.jpg",
+   "thumb": "drona/foto/t_0161.jpg",
+   "t": "2026:10:18 14:54:41",
+   "lat": 45.826702,
+   "lon": 24.145069
+  },
+  {
+   "n": "0162",
+   "src": "drona/foto/0162.jpg",
+   "thumb": "drona/foto/t_0162.jpg",
+   "t": "2026:10:18 14:54:44",
+   "lat": 45.826703,
+   "lon": 24.145068
+  },
+  {
+   "n": "0163",
+   "src": "drona/foto/0163.jpg",
+   "thumb": "drona/foto/t_0163.jpg",
+   "t": "2026:10:18 14:54:48",
+   "lat": 45.826705,
+   "lon": 24.145067
+  },
+  {
+   "n": "0164",
+   "src": "drona/foto/0164.jpg",
+   "thumb": "drona/foto/t_0164.jpg",
+   "t": "2026:10:18 14:54:51",
+   "lat": 45.826705,
+   "lon": 24.145068
+  },
+  {
+   "n": "0165",
+   "src": "drona/foto/0165.jpg",
+   "thumb": "drona/foto/t_0165.jpg",
+   "t": "2026:10:18 14:54:56",
+   "lat": 45.826705,
+   "lon": 24.14507
+  },
+  {
+   "n": "0166",
+   "src": "drona/foto/0166.jpg",
+   "thumb": "drona/foto/t_0166.jpg",
+   "t": "2026:10:18 14:54:59",
+   "lat": 45.826705,
+   "lon": 24.145071
+  },
+  {
+   "n": "0167",
+   "src": "drona/foto/0167.jpg",
+   "thumb": "drona/foto/t_0167.jpg",
+   "t": "2026:10:18 14:55:02",
+   "lat": 45.826704,
+   "lon": 24.145071
+  },
+  {
+   "n": "0168",
+   "src": "drona/foto/0168.jpg",
+   "thumb": "drona/foto/t_0168.jpg",
+   "t": "2026:10:18 14:55:06",
+   "lat": 45.826705,
+   "lon": 24.145071
+  },
+  {
+   "n": "0169",
+   "src": "drona/foto/0169.jpg",
+   "thumb": "drona/foto/t_0169.jpg",
+   "t": "2026:10:18 14:55:09",
+   "lat": 45.826704,
+   "lon": 24.145071
+  },
+  {
+   "n": "0170",
+   "src": "drona/foto/0170.jpg",
+   "thumb": "drona/foto/t_0170.jpg",
+   "t": "2026:10:18 14:55:13",
+   "lat": 45.826704,
+   "lon": 24.145073
+  },
+  {
+   "n": "0171",
+   "src": "drona/foto/0171.jpg",
+   "thumb": "drona/foto/t_0171.jpg",
+   "t": "2026:10:18 14:55:16",
+   "lat": 45.826704,
+   "lon": 24.145071
+  },
+  {
+   "n": "0172",
+   "src": "drona/foto/0172.jpg",
+   "thumb": "drona/foto/t_0172.jpg",
+   "t": "2026:10:18 14:55:19",
+   "lat": 45.826704,
+   "lon": 24.14507
+  },
+  {
+   "n": "0173",
+   "src": "drona/foto/0173.jpg",
+   "thumb": "drona/foto/t_0173.jpg",
+   "t": "2026:10:18 15:04:19",
+   "lat": 45.82582,
+   "lon": 24.145147
+  },
+  {
+   "n": "0174",
+   "src": "drona/foto/0174.jpg",
+   "thumb": "drona/foto/t_0174.jpg",
+   "t": "2026:10:18 15:04:24",
+   "lat": 45.825821,
+   "lon": 24.145149
+  },
+  {
+   "n": "0175",
+   "src": "drona/foto/0175.jpg",
+   "thumb": "drona/foto/t_0175.jpg",
+   "t": "2026:10:18 15:04:30",
+   "lat": 45.82582,
+   "lon": 24.145151
+  },
+  {
+   "n": "0176",
+   "src": "drona/foto/0176.jpg",
+   "thumb": "drona/foto/t_0176.jpg",
+   "t": "2026:10:18 15:04:34",
+   "lat": 45.82582,
+   "lon": 24.145151
+  },
+  {
+   "n": "0177",
+   "src": "drona/foto/0177.jpg",
+   "thumb": "drona/foto/t_0177.jpg",
+   "t": "2026:10:18 15:05:07",
+   "lat": 45.826593,
+   "lon": 24.144045
+  },
+  {
+   "n": "0178",
+   "src": "drona/foto/0178.jpg",
+   "thumb": "drona/foto/t_0178.jpg",
+   "t": "2026:10:18 15:05:11",
+   "lat": 45.826592,
+   "lon": 24.144045
+  },
+  {
+   "n": "0179",
+   "src": "drona/foto/0179.jpg",
+   "thumb": "drona/foto/t_0179.jpg",
+   "t": "2026:10:18 15:05:16",
+   "lat": 45.826592,
+   "lon": 24.144044
+  },
+  {
+   "n": "0180",
+   "src": "drona/foto/0180.jpg",
+   "thumb": "drona/foto/t_0180.jpg",
+   "t": "2026:10:18 15:05:30",
+   "lat": 45.826755,
+   "lon": 24.143298
+  },
+  {
+   "n": "0181",
+   "src": "drona/foto/0181.jpg",
+   "thumb": "drona/foto/t_0181.jpg",
+   "t": "2026:10:18 15:05:33",
+   "lat": 45.826754,
+   "lon": 24.143298
+  },
+  {
+   "n": "0182",
+   "src": "drona/foto/0182.jpg",
+   "thumb": "drona/foto/t_0182.jpg",
+   "t": "2026:10:18 15:05:35",
+   "lat": 45.826754,
+   "lon": 24.143298
+  },
+  {
+   "n": "0183",
+   "src": "drona/foto/0183.jpg",
+   "thumb": "drona/foto/t_0183.jpg",
+   "t": "2026:10:18 15:05:46",
+   "lat": 45.826756,
+   "lon": 24.143297
+  },
+  {
+   "n": "0184",
+   "src": "drona/foto/0184.jpg",
+   "thumb": "drona/foto/t_0184.jpg",
+   "t": "2026:10:18 15:05:49",
+   "lat": 45.826755,
+   "lon": 24.143297
+  },
+  {
+   "n": "0185",
+   "src": "drona/foto/0185.jpg",
+   "thumb": "drona/foto/t_0185.jpg",
+   "t": "2026:10:18 15:05:52",
+   "lat": 45.826756,
+   "lon": 24.143296
+  },
+  {
+   "n": "0186",
+   "src": "drona/foto/0186.jpg",
+   "thumb": "drona/foto/t_0186.jpg",
+   "t": "2026:10:18 15:05:56",
+   "lat": 45.826756,
+   "lon": 24.143296
+  },
+  {
+   "n": "0187",
+   "src": "drona/foto/0187.jpg",
+   "thumb": "drona/foto/t_0187.jpg",
+   "t": "2026:10:18 15:06:01",
+   "lat": 45.826755,
+   "lon": 24.143296
+  },
+  {
+   "n": "0188",
+   "src": "drona/foto/0188.jpg",
+   "thumb": "drona/foto/t_0188.jpg",
+   "t": "2026:10:18 15:06:05",
+   "lat": 45.826756,
+   "lon": 24.143297
+  },
+  {
+   "n": "0189",
+   "src": "drona/foto/0189.jpg",
+   "thumb": "drona/foto/t_0189.jpg",
+   "t": "2026:10:18 15:06:07",
+   "lat": 45.826756,
+   "lon": 24.143296
+  },
+  {
+   "n": "0190",
+   "src": "drona/foto/0190.jpg",
+   "thumb": "drona/foto/t_0190.jpg",
+   "t": "2026:10:18 15:06:10",
+   "lat": 45.826756,
+   "lon": 24.143296
+  },
+  {
+   "n": "0191",
+   "src": "drona/foto/0191.jpg",
+   "thumb": "drona/foto/t_0191.jpg",
+   "t": "2026:10:18 15:06:12",
+   "lat": 45.826755,
+   "lon": 24.143295
+  },
+  {
+   "n": "0192",
+   "src": "drona/foto/0192.jpg",
+   "thumb": "drona/foto/t_0192.jpg",
+   "t": "2026:10:18 15:06:14",
+   "lat": 45.826756,
+   "lon": 24.143295
+  },
+  {
+   "n": "0193",
+   "src": "drona/foto/0193.jpg",
+   "thumb": "drona/foto/t_0193.jpg",
+   "t": "2026:10:18 15:06:17",
+   "lat": 45.826755,
+   "lon": 24.143295
+  }
+ ]
+}
